@@ -35,8 +35,8 @@ buildPythonPackage rec {
 
   checkPhase = ''
     #py.test -k 'not test_auto and not test_localzone'
-    py.test -k 'not providers'
-    #py.test lexicon/tests/providers/test_vultr.py
+    #py.test -k 'not providers'
+    py.test lexicon/tests/providers/test_vultr.py
   '';
 
   meta = with lib; {

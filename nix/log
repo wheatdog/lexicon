@@ -1,0 +1,1611 @@
+Sourcing python-recompile-bytecode-hook.sh
+Sourcing python-remove-tests-dir-hook
+Sourcing python-catch-conflicts-hook.sh
+Sourcing python-remove-bin-bytecode-hook.sh
+Sourcing setuptools-build-hook
+Using setuptoolsBuildPhase
+Using setuptoolsShellHook
+Sourcing pip-install-hook
+Using pipInstallPhase
+Sourcing python-imports-check-hook.sh
+Using pythonImportsCheckPhase
+Sourcing python-namespaces-hook
+Sourcing setuptools-check-hook
+@nix { "action": "setPhase", "phase": "unpackPhase" }
+unpacking sources
+unpacking source archive /nix/store/bvgfhqd2nn6rk646igwvd8iimi00dnc3-dns-lexicon-3.4.3.tar.gz
+source root is dns-lexicon-3.4.3
+setting SOURCE_DATE_EPOCH to timestamp 1599512994 of file dns-lexicon-3.4.3/PKG-INFO
+@nix { "action": "setPhase", "phase": "patchPhase" }
+patching sources
+@nix { "action": "setPhase", "phase": "configurePhase" }
+configuring
+no configure script, doing nothing
+@nix { "action": "setPhase", "phase": "buildPhase" }
+building
+Executing setuptoolsBuildPhase
+running bdist_wheel
+running build
+running build_py
+creating build
+creating build/lib
+creating build/lib/lexicon
+copying lexicon/__init__.py -> build/lib/lexicon
+copying lexicon/cli.py -> build/lib/lexicon
+copying lexicon/client.py -> build/lib/lexicon
+copying lexicon/config.py -> build/lib/lexicon
+copying lexicon/conftest.py -> build/lib/lexicon
+copying lexicon/discovery.py -> build/lib/lexicon
+copying lexicon/parser.py -> build/lib/lexicon
+creating build/lib/lexicon/providers
+copying lexicon/providers/__init__.py -> build/lib/lexicon/providers
+copying lexicon/providers/aliyun.py -> build/lib/lexicon/providers
+copying lexicon/providers/aurora.py -> build/lib/lexicon/providers
+copying lexicon/providers/auto.py -> build/lib/lexicon/providers
+copying lexicon/providers/azure.py -> build/lib/lexicon/providers
+copying lexicon/providers/base.py -> build/lib/lexicon/providers
+copying lexicon/providers/cloudflare.py -> build/lib/lexicon/providers
+copying lexicon/providers/cloudns.py -> build/lib/lexicon/providers
+copying lexicon/providers/cloudxns.py -> build/lib/lexicon/providers
+copying lexicon/providers/conoha.py -> build/lib/lexicon/providers
+copying lexicon/providers/constellix.py -> build/lib/lexicon/providers
+copying lexicon/providers/digitalocean.py -> build/lib/lexicon/providers
+copying lexicon/providers/dinahosting.py -> build/lib/lexicon/providers
+copying lexicon/providers/directadmin.py -> build/lib/lexicon/providers
+copying lexicon/providers/dnsimple.py -> build/lib/lexicon/providers
+copying lexicon/providers/dnsmadeeasy.py -> build/lib/lexicon/providers
+copying lexicon/providers/dnspark.py -> build/lib/lexicon/providers
+copying lexicon/providers/dnspod.py -> build/lib/lexicon/providers
+copying lexicon/providers/dreamhost.py -> build/lib/lexicon/providers
+copying lexicon/providers/dynu.py -> build/lib/lexicon/providers
+copying lexicon/providers/easydns.py -> build/lib/lexicon/providers
+copying lexicon/providers/easyname.py -> build/lib/lexicon/providers
+copying lexicon/providers/euserv.py -> build/lib/lexicon/providers
+copying lexicon/providers/exoscale.py -> build/lib/lexicon/providers
+copying lexicon/providers/gandi.py -> build/lib/lexicon/providers
+copying lexicon/providers/gehirn.py -> build/lib/lexicon/providers
+copying lexicon/providers/glesys.py -> build/lib/lexicon/providers
+copying lexicon/providers/godaddy.py -> build/lib/lexicon/providers
+copying lexicon/providers/googleclouddns.py -> build/lib/lexicon/providers
+copying lexicon/providers/gransy.py -> build/lib/lexicon/providers
+copying lexicon/providers/gratisdns.py -> build/lib/lexicon/providers
+copying lexicon/providers/henet.py -> build/lib/lexicon/providers
+copying lexicon/providers/hetzner.py -> build/lib/lexicon/providers
+copying lexicon/providers/hostingde.py -> build/lib/lexicon/providers
+copying lexicon/providers/hover.py -> build/lib/lexicon/providers
+copying lexicon/providers/infoblox.py -> build/lib/lexicon/providers
+copying lexicon/providers/internetbs.py -> build/lib/lexicon/providers
+copying lexicon/providers/inwx.py -> build/lib/lexicon/providers
+copying lexicon/providers/linode.py -> build/lib/lexicon/providers
+copying lexicon/providers/linode4.py -> build/lib/lexicon/providers
+copying lexicon/providers/localzone.py -> build/lib/lexicon/providers
+copying lexicon/providers/luadns.py -> build/lib/lexicon/providers
+copying lexicon/providers/memset.py -> build/lib/lexicon/providers
+copying lexicon/providers/namecheap.py -> build/lib/lexicon/providers
+copying lexicon/providers/namesilo.py -> build/lib/lexicon/providers
+copying lexicon/providers/netcup.py -> build/lib/lexicon/providers
+copying lexicon/providers/nfsn.py -> build/lib/lexicon/providers
+copying lexicon/providers/njalla.py -> build/lib/lexicon/providers
+copying lexicon/providers/nsone.py -> build/lib/lexicon/providers
+copying lexicon/providers/onapp.py -> build/lib/lexicon/providers
+copying lexicon/providers/online.py -> build/lib/lexicon/providers
+copying lexicon/providers/ovh.py -> build/lib/lexicon/providers
+copying lexicon/providers/plesk.py -> build/lib/lexicon/providers
+copying lexicon/providers/pointhq.py -> build/lib/lexicon/providers
+copying lexicon/providers/powerdns.py -> build/lib/lexicon/providers
+copying lexicon/providers/rackspace.py -> build/lib/lexicon/providers
+copying lexicon/providers/rage4.py -> build/lib/lexicon/providers
+copying lexicon/providers/rcodezero.py -> build/lib/lexicon/providers
+copying lexicon/providers/route53.py -> build/lib/lexicon/providers
+copying lexicon/providers/safedns.py -> build/lib/lexicon/providers
+copying lexicon/providers/sakuracloud.py -> build/lib/lexicon/providers
+copying lexicon/providers/softlayer.py -> build/lib/lexicon/providers
+copying lexicon/providers/transip.py -> build/lib/lexicon/providers
+copying lexicon/providers/ultradns.py -> build/lib/lexicon/providers
+copying lexicon/providers/vultr.py -> build/lib/lexicon/providers
+copying lexicon/providers/yandex.py -> build/lib/lexicon/providers
+copying lexicon/providers/zeit.py -> build/lib/lexicon/providers
+copying lexicon/providers/zilore.py -> build/lib/lexicon/providers
+copying lexicon/providers/zonomi.py -> build/lib/lexicon/providers
+creating build/lib/lexicon/tests
+copying lexicon/tests/__init__.py -> build/lib/lexicon/tests
+copying lexicon/tests/test_client.py -> build/lib/lexicon/tests
+copying lexicon/tests/test_config.py -> build/lib/lexicon/tests
+copying lexicon/tests/test_library.py -> build/lib/lexicon/tests
+copying lexicon/tests/test_output.py -> build/lib/lexicon/tests
+copying lexicon/tests/test_parser.py -> build/lib/lexicon/tests
+creating build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/__init__.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/integration_tests.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_aliyun.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_aurora.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_auto.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_azure.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_cloudflare.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_cloudns.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_cloudxns.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_conoha.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_constellix.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_digitalocean.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_dinahosting.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_directadmin.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_dnsimple.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_dnsmadeeasy.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_dnspark.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_dnspod.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_dreamhost.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_dynu.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_easydns.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_easyname.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_euserv.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_exoscale.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_gandi.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_gehirn.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_glesys.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_godaddy.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_googleclouddns.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_gransy.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_gratisdns.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_henet.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_hetzner.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_hostingde.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_hover.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_infoblox.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_internetbs.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_inwx.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_linode.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_linode4.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_localzone.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_luadns.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_memset.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_namecheap.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_namesilo.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_netcup.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_nfsn.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_njalla.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_nsone.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_onapp.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_online.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_ovh.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_plesk.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_pointhq.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_powerdns.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_rackspace.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_rage4.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_rcodezero.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_route53.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_safedns.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_sakuracloud.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_softlayer.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_transip.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_ultradns.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_vultr.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_yandex.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_zeit.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_zilore.py -> build/lib/lexicon/tests/providers
+copying lexicon/tests/providers/test_zonomi.py -> build/lib/lexicon/tests/providers
+installing to build/bdist.linux-x86_64/wheel
+running install
+running install_lib
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/wheel
+creating build/bdist.linux-x86_64/wheel/lexicon
+copying build/lib/lexicon/__init__.py -> build/bdist.linux-x86_64/wheel/lexicon
+copying build/lib/lexicon/cli.py -> build/bdist.linux-x86_64/wheel/lexicon
+copying build/lib/lexicon/client.py -> build/bdist.linux-x86_64/wheel/lexicon
+copying build/lib/lexicon/config.py -> build/bdist.linux-x86_64/wheel/lexicon
+copying build/lib/lexicon/conftest.py -> build/bdist.linux-x86_64/wheel/lexicon
+copying build/lib/lexicon/discovery.py -> build/bdist.linux-x86_64/wheel/lexicon
+copying build/lib/lexicon/parser.py -> build/bdist.linux-x86_64/wheel/lexicon
+creating build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/__init__.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/aliyun.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/aurora.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/auto.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/azure.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/base.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/cloudflare.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/cloudns.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/cloudxns.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/conoha.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/constellix.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/digitalocean.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/dinahosting.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/directadmin.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/dnsimple.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/dnsmadeeasy.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/dnspark.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/dnspod.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/dreamhost.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/dynu.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/easydns.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/easyname.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/euserv.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/exoscale.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/gandi.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/gehirn.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/glesys.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/godaddy.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/googleclouddns.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/gransy.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/gratisdns.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/henet.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/hetzner.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/hostingde.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/hover.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/infoblox.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/internetbs.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/inwx.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/linode.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/linode4.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/localzone.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/luadns.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/memset.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/namecheap.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/namesilo.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/netcup.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/nfsn.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/njalla.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/nsone.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/onapp.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/online.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/ovh.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/plesk.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/pointhq.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/powerdns.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/rackspace.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/rage4.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/rcodezero.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/route53.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/safedns.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/sakuracloud.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/softlayer.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/transip.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/ultradns.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/vultr.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/yandex.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/zeit.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/zilore.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+copying build/lib/lexicon/providers/zonomi.py -> build/bdist.linux-x86_64/wheel/lexicon/providers
+creating build/bdist.linux-x86_64/wheel/lexicon/tests
+copying build/lib/lexicon/tests/__init__.py -> build/bdist.linux-x86_64/wheel/lexicon/tests
+copying build/lib/lexicon/tests/test_client.py -> build/bdist.linux-x86_64/wheel/lexicon/tests
+copying build/lib/lexicon/tests/test_config.py -> build/bdist.linux-x86_64/wheel/lexicon/tests
+copying build/lib/lexicon/tests/test_library.py -> build/bdist.linux-x86_64/wheel/lexicon/tests
+copying build/lib/lexicon/tests/test_output.py -> build/bdist.linux-x86_64/wheel/lexicon/tests
+copying build/lib/lexicon/tests/test_parser.py -> build/bdist.linux-x86_64/wheel/lexicon/tests
+creating build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/__init__.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/integration_tests.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_aliyun.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_aurora.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_auto.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_azure.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_cloudflare.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_cloudns.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_cloudxns.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_conoha.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_constellix.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_digitalocean.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_dinahosting.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_directadmin.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_dnsimple.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_dnsmadeeasy.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_dnspark.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_dnspod.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_dreamhost.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_dynu.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_easydns.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_easyname.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_euserv.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_exoscale.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_gandi.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_gehirn.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_glesys.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_godaddy.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_googleclouddns.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_gransy.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_gratisdns.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_henet.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_hetzner.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_hostingde.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_hover.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_infoblox.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_internetbs.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_inwx.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_linode.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_linode4.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_localzone.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_luadns.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_memset.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_namecheap.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_namesilo.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_netcup.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_nfsn.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_njalla.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_nsone.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_onapp.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_online.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_ovh.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_plesk.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_pointhq.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_powerdns.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_rackspace.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_rage4.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_rcodezero.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_route53.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_safedns.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_sakuracloud.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_softlayer.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_transip.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_ultradns.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_vultr.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_yandex.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_zeit.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_zilore.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+copying build/lib/lexicon/tests/providers/test_zonomi.py -> build/bdist.linux-x86_64/wheel/lexicon/tests/providers
+running install_egg_info
+running egg_info
+creating dns_lexicon.egg-info
+writing dns_lexicon.egg-info/PKG-INFO
+writing dependency_links to dns_lexicon.egg-info/dependency_links.txt
+writing entry points to dns_lexicon.egg-info/entry_points.txt
+writing requirements to dns_lexicon.egg-info/requires.txt
+writing top-level names to dns_lexicon.egg-info/top_level.txt
+writing manifest file 'dns_lexicon.egg-info/SOURCES.txt'
+reading manifest file 'dns_lexicon.egg-info/SOURCES.txt'
+writing manifest file 'dns_lexicon.egg-info/SOURCES.txt'
+Copying dns_lexicon.egg-info to build/bdist.linux-x86_64/wheel/dns_lexicon-3.4.3-py3.8.egg-info
+running install_scripts
+adding license file "LICENSE" (matched pattern "LICEN[CS]E*")
+creating build/bdist.linux-x86_64/wheel/dns_lexicon-3.4.3.dist-info/WHEEL
+creating 'dist/dns_lexicon-3.4.3-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+adding 'lexicon/__init__.py'
+adding 'lexicon/cli.py'
+adding 'lexicon/client.py'
+adding 'lexicon/config.py'
+adding 'lexicon/conftest.py'
+adding 'lexicon/discovery.py'
+adding 'lexicon/parser.py'
+adding 'lexicon/providers/__init__.py'
+adding 'lexicon/providers/aliyun.py'
+adding 'lexicon/providers/aurora.py'
+adding 'lexicon/providers/auto.py'
+adding 'lexicon/providers/azure.py'
+adding 'lexicon/providers/base.py'
+adding 'lexicon/providers/cloudflare.py'
+adding 'lexicon/providers/cloudns.py'
+adding 'lexicon/providers/cloudxns.py'
+adding 'lexicon/providers/conoha.py'
+adding 'lexicon/providers/constellix.py'
+adding 'lexicon/providers/digitalocean.py'
+adding 'lexicon/providers/dinahosting.py'
+adding 'lexicon/providers/directadmin.py'
+adding 'lexicon/providers/dnsimple.py'
+adding 'lexicon/providers/dnsmadeeasy.py'
+adding 'lexicon/providers/dnspark.py'
+adding 'lexicon/providers/dnspod.py'
+adding 'lexicon/providers/dreamhost.py'
+adding 'lexicon/providers/dynu.py'
+adding 'lexicon/providers/easydns.py'
+adding 'lexicon/providers/easyname.py'
+adding 'lexicon/providers/euserv.py'
+adding 'lexicon/providers/exoscale.py'
+adding 'lexicon/providers/gandi.py'
+adding 'lexicon/providers/gehirn.py'
+adding 'lexicon/providers/glesys.py'
+adding 'lexicon/providers/godaddy.py'
+adding 'lexicon/providers/googleclouddns.py'
+adding 'lexicon/providers/gransy.py'
+adding 'lexicon/providers/gratisdns.py'
+adding 'lexicon/providers/henet.py'
+adding 'lexicon/providers/hetzner.py'
+adding 'lexicon/providers/hostingde.py'
+adding 'lexicon/providers/hover.py'
+adding 'lexicon/providers/infoblox.py'
+adding 'lexicon/providers/internetbs.py'
+adding 'lexicon/providers/inwx.py'
+adding 'lexicon/providers/linode.py'
+adding 'lexicon/providers/linode4.py'
+adding 'lexicon/providers/localzone.py'
+adding 'lexicon/providers/luadns.py'
+adding 'lexicon/providers/memset.py'
+adding 'lexicon/providers/namecheap.py'
+adding 'lexicon/providers/namesilo.py'
+adding 'lexicon/providers/netcup.py'
+adding 'lexicon/providers/nfsn.py'
+adding 'lexicon/providers/njalla.py'
+adding 'lexicon/providers/nsone.py'
+adding 'lexicon/providers/onapp.py'
+adding 'lexicon/providers/online.py'
+adding 'lexicon/providers/ovh.py'
+adding 'lexicon/providers/plesk.py'
+adding 'lexicon/providers/pointhq.py'
+adding 'lexicon/providers/powerdns.py'
+adding 'lexicon/providers/rackspace.py'
+adding 'lexicon/providers/rage4.py'
+adding 'lexicon/providers/rcodezero.py'
+adding 'lexicon/providers/route53.py'
+adding 'lexicon/providers/safedns.py'
+adding 'lexicon/providers/sakuracloud.py'
+adding 'lexicon/providers/softlayer.py'
+adding 'lexicon/providers/transip.py'
+adding 'lexicon/providers/ultradns.py'
+adding 'lexicon/providers/vultr.py'
+adding 'lexicon/providers/yandex.py'
+adding 'lexicon/providers/zeit.py'
+adding 'lexicon/providers/zilore.py'
+adding 'lexicon/providers/zonomi.py'
+adding 'lexicon/tests/__init__.py'
+adding 'lexicon/tests/test_client.py'
+adding 'lexicon/tests/test_config.py'
+adding 'lexicon/tests/test_library.py'
+adding 'lexicon/tests/test_output.py'
+adding 'lexicon/tests/test_parser.py'
+adding 'lexicon/tests/providers/__init__.py'
+adding 'lexicon/tests/providers/integration_tests.py'
+adding 'lexicon/tests/providers/test_aliyun.py'
+adding 'lexicon/tests/providers/test_aurora.py'
+adding 'lexicon/tests/providers/test_auto.py'
+adding 'lexicon/tests/providers/test_azure.py'
+adding 'lexicon/tests/providers/test_cloudflare.py'
+adding 'lexicon/tests/providers/test_cloudns.py'
+adding 'lexicon/tests/providers/test_cloudxns.py'
+adding 'lexicon/tests/providers/test_conoha.py'
+adding 'lexicon/tests/providers/test_constellix.py'
+adding 'lexicon/tests/providers/test_digitalocean.py'
+adding 'lexicon/tests/providers/test_dinahosting.py'
+adding 'lexicon/tests/providers/test_directadmin.py'
+adding 'lexicon/tests/providers/test_dnsimple.py'
+adding 'lexicon/tests/providers/test_dnsmadeeasy.py'
+adding 'lexicon/tests/providers/test_dnspark.py'
+adding 'lexicon/tests/providers/test_dnspod.py'
+adding 'lexicon/tests/providers/test_dreamhost.py'
+adding 'lexicon/tests/providers/test_dynu.py'
+adding 'lexicon/tests/providers/test_easydns.py'
+adding 'lexicon/tests/providers/test_easyname.py'
+adding 'lexicon/tests/providers/test_euserv.py'
+adding 'lexicon/tests/providers/test_exoscale.py'
+adding 'lexicon/tests/providers/test_gandi.py'
+adding 'lexicon/tests/providers/test_gehirn.py'
+adding 'lexicon/tests/providers/test_glesys.py'
+adding 'lexicon/tests/providers/test_godaddy.py'
+adding 'lexicon/tests/providers/test_googleclouddns.py'
+adding 'lexicon/tests/providers/test_gransy.py'
+adding 'lexicon/tests/providers/test_gratisdns.py'
+adding 'lexicon/tests/providers/test_henet.py'
+adding 'lexicon/tests/providers/test_hetzner.py'
+adding 'lexicon/tests/providers/test_hostingde.py'
+adding 'lexicon/tests/providers/test_hover.py'
+adding 'lexicon/tests/providers/test_infoblox.py'
+adding 'lexicon/tests/providers/test_internetbs.py'
+adding 'lexicon/tests/providers/test_inwx.py'
+adding 'lexicon/tests/providers/test_linode.py'
+adding 'lexicon/tests/providers/test_linode4.py'
+adding 'lexicon/tests/providers/test_localzone.py'
+adding 'lexicon/tests/providers/test_luadns.py'
+adding 'lexicon/tests/providers/test_memset.py'
+adding 'lexicon/tests/providers/test_namecheap.py'
+adding 'lexicon/tests/providers/test_namesilo.py'
+adding 'lexicon/tests/providers/test_netcup.py'
+adding 'lexicon/tests/providers/test_nfsn.py'
+adding 'lexicon/tests/providers/test_njalla.py'
+adding 'lexicon/tests/providers/test_nsone.py'
+adding 'lexicon/tests/providers/test_onapp.py'
+adding 'lexicon/tests/providers/test_online.py'
+adding 'lexicon/tests/providers/test_ovh.py'
+adding 'lexicon/tests/providers/test_plesk.py'
+adding 'lexicon/tests/providers/test_pointhq.py'
+adding 'lexicon/tests/providers/test_powerdns.py'
+adding 'lexicon/tests/providers/test_rackspace.py'
+adding 'lexicon/tests/providers/test_rage4.py'
+adding 'lexicon/tests/providers/test_rcodezero.py'
+adding 'lexicon/tests/providers/test_route53.py'
+adding 'lexicon/tests/providers/test_safedns.py'
+adding 'lexicon/tests/providers/test_sakuracloud.py'
+adding 'lexicon/tests/providers/test_softlayer.py'
+adding 'lexicon/tests/providers/test_transip.py'
+adding 'lexicon/tests/providers/test_ultradns.py'
+adding 'lexicon/tests/providers/test_vultr.py'
+adding 'lexicon/tests/providers/test_yandex.py'
+adding 'lexicon/tests/providers/test_zeit.py'
+adding 'lexicon/tests/providers/test_zilore.py'
+adding 'lexicon/tests/providers/test_zonomi.py'
+adding 'dns_lexicon-3.4.3.dist-info/LICENSE'
+adding 'dns_lexicon-3.4.3.dist-info/METADATA'
+adding 'dns_lexicon-3.4.3.dist-info/WHEEL'
+adding 'dns_lexicon-3.4.3.dist-info/entry_points.txt'
+adding 'dns_lexicon-3.4.3.dist-info/top_level.txt'
+adding 'dns_lexicon-3.4.3.dist-info/RECORD'
+removing build/bdist.linux-x86_64/wheel
+Finished executing setuptoolsBuildPhase
+@nix { "action": "setPhase", "phase": "installPhase" }
+installing
+Executing pipInstallPhase
+/build/dns-lexicon-3.4.3/dist /build/dns-lexicon-3.4.3
+Processing ./dns_lexicon-3.4.3-py3-none-any.whl
+Requirement already satisfied: cryptography<4,>=2 in /nix/store/s5cgynhqcy875m4xrslcz0q54vlvnpfs-python3.8-cryptography-3.1/lib/python3.8/site-packages (from dns-lexicon==3.4.3) (3.1)
+Requirement already satisfied: pyyaml<6,>=5 in /nix/store/l540rm9ip5axfyh92dg2jrnv0wkf52ad-python3.8-PyYAML-5.3.1/lib/python3.8/site-packages (from dns-lexicon==3.4.3) (5.3.1)
+Requirement already satisfied: future<1,>=0 in /nix/store/cp0irfy5xpyk1p1py5f9zycmhqzvsh0q-python3.8-future-0.18.2/lib/python3.8/site-packages (from dns-lexicon==3.4.3) (0.18.2)
+Requirement already satisfied: tldextract<3,>=2 in /nix/store/1wwdvqfrgi5vvyc8x78xnjwiqsqszpsf-python3.8-tldextract-2.2.3/lib/python3.8/site-packages (from dns-lexicon==3.4.3) (2.2.3)
+Requirement already satisfied: beautifulsoup4<5,>=4 in /nix/store/nnsvd8ihc1v36a8g57azwmf1p6cvj2v4-python3.8-beautifulsoup4-4.9.1/lib/python3.8/site-packages (from dns-lexicon==3.4.3) (4.9.1)
+Requirement already satisfied: requests<3,>=2 in /nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages (from dns-lexicon==3.4.3) (2.24.0)
+Requirement already satisfied: six>=1.4.1 in /nix/store/md9ld5w5s4dkqkm0rjbsqrlzlhyjiq4y-python3.8-six-1.15.0/lib/python3.8/site-packages (from cryptography<4,>=2->dns-lexicon==3.4.3) (1.15.0)
+Requirement already satisfied: cffi!=1.11.3,>=1.8 in /nix/store/xg0jqm46cm4apms15c405yz5rn6lxdja-python3.8-cffi-1.14.2/lib/python3.8/site-packages (from cryptography<4,>=2->dns-lexicon==3.4.3) (1.14.2)
+Requirement already satisfied: requests-file>=1.4 in /nix/store/lfjalz82hnkh5ygwgl0dhpqmsy062rs4-python3.8-requests-file-1.5.1/lib/python3.8/site-packages (from tldextract<3,>=2->dns-lexicon==3.4.3) (1.5.1)
+Requirement already satisfied: idna in /nix/store/jjr4xgxy62n6kai3xlchz3qdxvgqdhqc-python3.8-idna-2.10/lib/python3.8/site-packages (from tldextract<3,>=2->dns-lexicon==3.4.3) (2.10)
+Requirement already satisfied: soupsieve>1.2 in /nix/store/xh8czqffx4wqm4vjgiyhhisn7p9f6dgl-python3.8-soupsieve-2.0.1/lib/python3.8/site-packages (from beautifulsoup4<5,>=4->dns-lexicon==3.4.3) (2.0.1)
+Requirement already satisfied: certifi>=2017.4.17 in /nix/store/kj3kakbfy6bzlg4ai5mkpnxwwgra3agv-python3.8-certifi-2020.6.20/lib/python3.8/site-packages (from requests<3,>=2->dns-lexicon==3.4.3) (2020.6.20)
+Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in /nix/store/hhmp3gflmmpsfc6jgdlm947p99nyml8s-python3.8-urllib3-1.25.10/lib/python3.8/site-packages (from requests<3,>=2->dns-lexicon==3.4.3) (1.25.10)
+Requirement already satisfied: chardet<4,>=3.0.2 in /nix/store/9wp5lrvad52cvg6ms3pmq0qki3a22gpn-python3.8-chardet-3.0.4/lib/python3.8/site-packages (from requests<3,>=2->dns-lexicon==3.4.3) (3.0.4)
+Requirement already satisfied: pycparser in /nix/store/5mjjg851r9pxfaqg6xzjx3lqdlpmmidm-python3.8-pycparser-2.20/lib/python3.8/site-packages (from cffi!=1.11.3,>=1.8->cryptography<4,>=2->dns-lexicon==3.4.3) (2.20)
+Installing collected packages: dns-lexicon
+[33m  WARNING: The script lexicon is installed in '/nix/store/fjr3fw1x6604wwwcxfdc1lxlan3rqbfy-python3.8-dns-lexicon-3.4.3/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.[0m
+Successfully installed dns-lexicon-3.4.3
+/build/dns-lexicon-3.4.3
+Finished executing pipInstallPhase
+@nix { "action": "setPhase", "phase": "fixupPhase" }
+post-installation fixup
+shrinking RPATHs of ELF executables and libraries in /nix/store/fjr3fw1x6604wwwcxfdc1lxlan3rqbfy-python3.8-dns-lexicon-3.4.3
+strip is /nix/store/p792j5f44l3f0xi7ai5jllwnxqwnka88-binutils-2.31.1/bin/strip
+stripping (with command strip and flags -S) in /nix/store/fjr3fw1x6604wwwcxfdc1lxlan3rqbfy-python3.8-dns-lexicon-3.4.3/lib  /nix/store/fjr3fw1x6604wwwcxfdc1lxlan3rqbfy-python3.8-dns-lexicon-3.4.3/bin 
+patching script interpreter paths in /nix/store/fjr3fw1x6604wwwcxfdc1lxlan3rqbfy-python3.8-dns-lexicon-3.4.3
+checking for references to /build/ in /nix/store/fjr3fw1x6604wwwcxfdc1lxlan3rqbfy-python3.8-dns-lexicon-3.4.3...
+Rewriting #!/nix/store/z65l1jqvxa58zzwwa3bvglb6asj4y8cv-python3-3.8.5/bin/python3.8 to #!/nix/store/z65l1jqvxa58zzwwa3bvglb6asj4y8cv-python3-3.8.5
+wrapping `/nix/store/fjr3fw1x6604wwwcxfdc1lxlan3rqbfy-python3.8-dns-lexicon-3.4.3/bin/lexicon'...
+Executing pythonRemoveTestsDir
+Finished executing pythonRemoveTestsDir
+@nix { "action": "setPhase", "phase": "installCheckPhase" }
+running install tests
+[1m============================= test session starts ==============================[0m
+platform linux -- Python 3.8.5, pytest-5.4.3, py-1.9.0, pluggy-0.13.1
+rootdir: /build/dns-lexicon-3.4.3
+plugins: cov-2.10.1, xdist-1.34.0, forked-1.3.0
+[1mcollecting ... [0m[1mcollected 23 items                                                             [0m
+
+lexicon/tests/providers/test_vultr.py [31mF[0m[32m.[0m[32m.[0m[31mF[0m[31mF[0m[31mF[0m[31mF[0m[31mF[0m[31mF[0m[31mF[0m[31mF[0m[31mF[0m[31mF[0m[33ms[0m[33ms[0m[31mF[0m[31mF[0m[31mF[0m[31mF[0m[31mF[0m[33ms[0m[31mF[0m[31mF[0m[31m            [100%][0m
+
+=================================== FAILURES ===================================
+[31m[1m________________ VultrProviderTests.test_provider_authenticate _________________[0m
+
+self = <lexicon.tests.providers.test_vultr.VultrProviderTests testMethod=test_provider_authenticate>
+
+    [37m@_vcr_integration_test[39;49;00m
+    [94mdef[39;49;00m [92mtest_provider_authenticate[39;49;00m([96mself[39;49;00m):
+>       provider = [96mself[39;49;00m._construct_authenticated_provider()
+
+[1m[31mlexicon/tests/providers/integration_tests.py[0m:122: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+[1m[31mlexicon/tests/providers/integration_tests.py[0m:444: in _construct_authenticated_provider
+    provider.authenticate()
+[1m[31mlexicon/providers/base.py[0m:74: in authenticate
+    [94mreturn[39;49;00m [96mself[39;49;00m._authenticate()
+[1m[31mlexicon/providers/vultr.py[0m:29: in _authenticate
+    payload = [96mself[39;49;00m._get([33m"[39;49;00m[33m/dns/list[39;49;00m[33m"[39;49;00m)
+[1m[31mlexicon/providers/base.py[0m:159: in _get
+    [94mreturn[39;49;00m [96mself[39;49;00m._request([33m"[39;49;00m[33mGET[39;49;00m[33m"[39;49;00m, url, query_params=query_params)
+[1m[31mlexicon/providers/vultr.py[0m:142: in _request
+    response = requests.request(
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/api.py[0m:61: in request
+    [94mreturn[39;49;00m session.request(method=method, url=url, **kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/sessions.py[0m:530: in request
+    resp = [96mself[39;49;00m.send(prep, **send_kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/sessions.py[0m:643: in send
+    r = adapter.send(request, **kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/adapters.py[0m:439: in send
+    resp = conn.urlopen(
+[1m[31m/nix/store/hhmp3gflmmpsfc6jgdlm947p99nyml8s-python3.8-urllib3-1.25.10/lib/python3.8/site-packages/urllib3/connectionpool.py[0m:670: in urlopen
+    httplib_response = [96mself[39;49;00m._make_request(
+[1m[31m/nix/store/hhmp3gflmmpsfc6jgdlm947p99nyml8s-python3.8-urllib3-1.25.10/lib/python3.8/site-packages/urllib3/connectionpool.py[0m:417: in _make_request
+    httplib_response = conn.getresponse(buffering=[94mTrue[39;49;00m)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <vcr.patch.VCRRequestsHTTPSConnectiontests/fixtures/cassettes/vultr/IntegrationTests/test_provider_authenticate.yaml object at 0x7ffff4f960d0>
+_ = False, kwargs = {'buffering': True}
+
+    [94mdef[39;49;00m [92mgetresponse[39;49;00m([96mself[39;49;00m, _=[94mFalse[39;49;00m, **kwargs):
+        [33m"""Retrieve the response"""[39;49;00m
+        [90m# Check to see if the cassette has a response for this request. If so,[39;49;00m
+        [90m# then return it[39;49;00m
+        [94mif[39;49;00m [96mself[39;49;00m.cassette.can_play_response_for([96mself[39;49;00m._vcr_request):
+            log.info([33m"[39;49;00m[33mPlaying response for [39;49;00m[33m{}[39;49;00m[33m from cassette[39;49;00m[33m"[39;49;00m.format([96mself[39;49;00m._vcr_request))
+            response = [96mself[39;49;00m.cassette.play_response([96mself[39;49;00m._vcr_request)
+            [94mreturn[39;49;00m VCRHTTPResponse(response)
+        [94melse[39;49;00m:
+            [94mif[39;49;00m [96mself[39;49;00m.cassette.write_protected [95mand[39;49;00m [96mself[39;49;00m.cassette.filter_request([96mself[39;49;00m._vcr_request):
+>               [94mraise[39;49;00m CannotOverwriteExistingCassetteException(
+                    cassette=[96mself[39;49;00m.cassette, failed_request=[96mself[39;49;00m._vcr_request
+                )
+[1m[31mE               vcr.errors.CannotOverwriteExistingCassetteException: Can't overwrite existing cassette ('tests/fixtures/cassettes/vultr/IntegrationTests/test_provider_authenticate.yaml') in your current record mode ('none').[0m
+[1m[31mE               No match for the request (<Request (GET) https://api.vultr.com/v1/dns/list>) was found.[0m
+[1m[31mE               No similar requests, that have not been played, found.[0m
+
+[1m[31m/nix/store/7zq1hx1b1pydlbgxj6kff3s2kgq3rqfl-python3.8-vcrpy-4.1.0/lib/python3.8/site-packages/vcr/stubs/__init__.py[0m:231: CannotOverwriteExistingCassetteException
+[31m[1m_ VultrProviderTests.test_provider_when_calling_create_record_for_A_with_valid_name_and_content _[0m
+
+self = <lexicon.tests.providers.test_vultr.VultrProviderTests testMethod=test_provider_when_calling_create_record_for_A_with_valid_name_and_content>
+
+    [37m@_vcr_integration_test[39;49;00m
+    [94mdef[39;49;00m [92mtest_provider_when_calling_create_record_for_A_with_valid_name_and_content[39;49;00m(
+        [96mself[39;49;00m,
+    ):
+>       provider = [96mself[39;49;00m._construct_authenticated_provider()
+
+[1m[31mlexicon/tests/providers/integration_tests.py[0m:142: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+[1m[31mlexicon/tests/providers/integration_tests.py[0m:444: in _construct_authenticated_provider
+    provider.authenticate()
+[1m[31mlexicon/providers/base.py[0m:74: in authenticate
+    [94mreturn[39;49;00m [96mself[39;49;00m._authenticate()
+[1m[31mlexicon/providers/vultr.py[0m:29: in _authenticate
+    payload = [96mself[39;49;00m._get([33m"[39;49;00m[33m/dns/list[39;49;00m[33m"[39;49;00m)
+[1m[31mlexicon/providers/base.py[0m:159: in _get
+    [94mreturn[39;49;00m [96mself[39;49;00m._request([33m"[39;49;00m[33mGET[39;49;00m[33m"[39;49;00m, url, query_params=query_params)
+[1m[31mlexicon/providers/vultr.py[0m:142: in _request
+    response = requests.request(
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/api.py[0m:61: in request
+    [94mreturn[39;49;00m session.request(method=method, url=url, **kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/sessions.py[0m:530: in request
+    resp = [96mself[39;49;00m.send(prep, **send_kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/sessions.py[0m:643: in send
+    r = adapter.send(request, **kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/adapters.py[0m:439: in send
+    resp = conn.urlopen(
+[1m[31m/nix/store/hhmp3gflmmpsfc6jgdlm947p99nyml8s-python3.8-urllib3-1.25.10/lib/python3.8/site-packages/urllib3/connectionpool.py[0m:670: in urlopen
+    httplib_response = [96mself[39;49;00m._make_request(
+[1m[31m/nix/store/hhmp3gflmmpsfc6jgdlm947p99nyml8s-python3.8-urllib3-1.25.10/lib/python3.8/site-packages/urllib3/connectionpool.py[0m:417: in _make_request
+    httplib_response = conn.getresponse(buffering=[94mTrue[39;49;00m)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <vcr.patch.VCRRequestsHTTPSConnectiontests/fixtures/cassettes/vultr/IntegrationTests/test_provider_when_calling_create_record_for_A_with_valid_name_and_content.yaml object at 0x7ffff4e1c850>
+_ = False, kwargs = {'buffering': True}
+
+    [94mdef[39;49;00m [92mgetresponse[39;49;00m([96mself[39;49;00m, _=[94mFalse[39;49;00m, **kwargs):
+        [33m"""Retrieve the response"""[39;49;00m
+        [90m# Check to see if the cassette has a response for this request. If so,[39;49;00m
+        [90m# then return it[39;49;00m
+        [94mif[39;49;00m [96mself[39;49;00m.cassette.can_play_response_for([96mself[39;49;00m._vcr_request):
+            log.info([33m"[39;49;00m[33mPlaying response for [39;49;00m[33m{}[39;49;00m[33m from cassette[39;49;00m[33m"[39;49;00m.format([96mself[39;49;00m._vcr_request))
+            response = [96mself[39;49;00m.cassette.play_response([96mself[39;49;00m._vcr_request)
+            [94mreturn[39;49;00m VCRHTTPResponse(response)
+        [94melse[39;49;00m:
+            [94mif[39;49;00m [96mself[39;49;00m.cassette.write_protected [95mand[39;49;00m [96mself[39;49;00m.cassette.filter_request([96mself[39;49;00m._vcr_request):
+>               [94mraise[39;49;00m CannotOverwriteExistingCassetteException(
+                    cassette=[96mself[39;49;00m.cassette, failed_request=[96mself[39;49;00m._vcr_request
+                )
+[1m[31mE               vcr.errors.CannotOverwriteExistingCassetteException: Can't overwrite existing cassette ('tests/fixtures/cassettes/vultr/IntegrationTests/test_provider_when_calling_create_record_for_A_with_valid_name_and_content.yaml') in your current record mode ('none').[0m
+[1m[31mE               No match for the request (<Request (GET) https://api.vultr.com/v1/dns/list>) was found.[0m
+[1m[31mE               No similar requests, that have not been played, found.[0m
+
+[1m[31m/nix/store/7zq1hx1b1pydlbgxj6kff3s2kgq3rqfl-python3.8-vcrpy-4.1.0/lib/python3.8/site-packages/vcr/stubs/__init__.py[0m:231: CannotOverwriteExistingCassetteException
+[31m[1m_ VultrProviderTests.test_provider_when_calling_create_record_for_CNAME_with_valid_name_and_content _[0m
+
+self = <lexicon.tests.providers.test_vultr.VultrProviderTests testMethod=test_provider_when_calling_create_record_for_CNAME_with_valid_name_and_content>
+
+    [37m@_vcr_integration_test[39;49;00m
+    [94mdef[39;49;00m [92mtest_provider_when_calling_create_record_for_CNAME_with_valid_name_and_content[39;49;00m(
+        [96mself[39;49;00m,
+    ):
+>       provider = [96mself[39;49;00m._construct_authenticated_provider()
+
+[1m[31mlexicon/tests/providers/integration_tests.py[0m:149: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+[1m[31mlexicon/tests/providers/integration_tests.py[0m:444: in _construct_authenticated_provider
+    provider.authenticate()
+[1m[31mlexicon/providers/base.py[0m:74: in authenticate
+    [94mreturn[39;49;00m [96mself[39;49;00m._authenticate()
+[1m[31mlexicon/providers/vultr.py[0m:29: in _authenticate
+    payload = [96mself[39;49;00m._get([33m"[39;49;00m[33m/dns/list[39;49;00m[33m"[39;49;00m)
+[1m[31mlexicon/providers/base.py[0m:159: in _get
+    [94mreturn[39;49;00m [96mself[39;49;00m._request([33m"[39;49;00m[33mGET[39;49;00m[33m"[39;49;00m, url, query_params=query_params)
+[1m[31mlexicon/providers/vultr.py[0m:142: in _request
+    response = requests.request(
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/api.py[0m:61: in request
+    [94mreturn[39;49;00m session.request(method=method, url=url, **kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/sessions.py[0m:530: in request
+    resp = [96mself[39;49;00m.send(prep, **send_kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/sessions.py[0m:643: in send
+    r = adapter.send(request, **kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/adapters.py[0m:439: in send
+    resp = conn.urlopen(
+[1m[31m/nix/store/hhmp3gflmmpsfc6jgdlm947p99nyml8s-python3.8-urllib3-1.25.10/lib/python3.8/site-packages/urllib3/connectionpool.py[0m:670: in urlopen
+    httplib_response = [96mself[39;49;00m._make_request(
+[1m[31m/nix/store/hhmp3gflmmpsfc6jgdlm947p99nyml8s-python3.8-urllib3-1.25.10/lib/python3.8/site-packages/urllib3/connectionpool.py[0m:417: in _make_request
+    httplib_response = conn.getresponse(buffering=[94mTrue[39;49;00m)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <vcr.patch.VCRRequestsHTTPSConnectiontests/fixtures/cassettes/vultr/IntegrationTests/test_provider_when_calling_create_record_for_CNAME_with_valid_name_and_content.yaml object at 0x7ffff4d3f580>
+_ = False, kwargs = {'buffering': True}
+
+    [94mdef[39;49;00m [92mgetresponse[39;49;00m([96mself[39;49;00m, _=[94mFalse[39;49;00m, **kwargs):
+        [33m"""Retrieve the response"""[39;49;00m
+        [90m# Check to see if the cassette has a response for this request. If so,[39;49;00m
+        [90m# then return it[39;49;00m
+        [94mif[39;49;00m [96mself[39;49;00m.cassette.can_play_response_for([96mself[39;49;00m._vcr_request):
+            log.info([33m"[39;49;00m[33mPlaying response for [39;49;00m[33m{}[39;49;00m[33m from cassette[39;49;00m[33m"[39;49;00m.format([96mself[39;49;00m._vcr_request))
+            response = [96mself[39;49;00m.cassette.play_response([96mself[39;49;00m._vcr_request)
+            [94mreturn[39;49;00m VCRHTTPResponse(response)
+        [94melse[39;49;00m:
+            [94mif[39;49;00m [96mself[39;49;00m.cassette.write_protected [95mand[39;49;00m [96mself[39;49;00m.cassette.filter_request([96mself[39;49;00m._vcr_request):
+>               [94mraise[39;49;00m CannotOverwriteExistingCassetteException(
+                    cassette=[96mself[39;49;00m.cassette, failed_request=[96mself[39;49;00m._vcr_request
+                )
+[1m[31mE               vcr.errors.CannotOverwriteExistingCassetteException: Can't overwrite existing cassette ('tests/fixtures/cassettes/vultr/IntegrationTests/test_provider_when_calling_create_record_for_CNAME_with_valid_name_and_content.yaml') in your current record mode ('none').[0m
+[1m[31mE               No match for the request (<Request (GET) https://api.vultr.com/v1/dns/list>) was found.[0m
+[1m[31mE               No similar requests, that have not been played, found.[0m
+
+[1m[31m/nix/store/7zq1hx1b1pydlbgxj6kff3s2kgq3rqfl-python3.8-vcrpy-4.1.0/lib/python3.8/site-packages/vcr/stubs/__init__.py[0m:231: CannotOverwriteExistingCassetteException
+[31m[1m_ VultrProviderTests.test_provider_when_calling_create_record_for_TXT_with_fqdn_name_and_content _[0m
+
+self = <lexicon.tests.providers.test_vultr.VultrProviderTests testMethod=test_provider_when_calling_create_record_for_TXT_with_fqdn_name_and_content>
+
+    [37m@_vcr_integration_test[39;49;00m
+    [94mdef[39;49;00m [92mtest_provider_when_calling_create_record_for_TXT_with_fqdn_name_and_content[39;49;00m(
+        [96mself[39;49;00m,
+    ):
+>       provider = [96mself[39;49;00m._construct_authenticated_provider()
+
+[1m[31mlexicon/tests/providers/integration_tests.py[0m:172: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+[1m[31mlexicon/tests/providers/integration_tests.py[0m:444: in _construct_authenticated_provider
+    provider.authenticate()
+[1m[31mlexicon/providers/base.py[0m:74: in authenticate
+    [94mreturn[39;49;00m [96mself[39;49;00m._authenticate()
+[1m[31mlexicon/providers/vultr.py[0m:29: in _authenticate
+    payload = [96mself[39;49;00m._get([33m"[39;49;00m[33m/dns/list[39;49;00m[33m"[39;49;00m)
+[1m[31mlexicon/providers/base.py[0m:159: in _get
+    [94mreturn[39;49;00m [96mself[39;49;00m._request([33m"[39;49;00m[33mGET[39;49;00m[33m"[39;49;00m, url, query_params=query_params)
+[1m[31mlexicon/providers/vultr.py[0m:142: in _request
+    response = requests.request(
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/api.py[0m:61: in request
+    [94mreturn[39;49;00m session.request(method=method, url=url, **kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/sessions.py[0m:530: in request
+    resp = [96mself[39;49;00m.send(prep, **send_kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/sessions.py[0m:643: in send
+    r = adapter.send(request, **kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/adapters.py[0m:439: in send
+    resp = conn.urlopen(
+[1m[31m/nix/store/hhmp3gflmmpsfc6jgdlm947p99nyml8s-python3.8-urllib3-1.25.10/lib/python3.8/site-packages/urllib3/connectionpool.py[0m:670: in urlopen
+    httplib_response = [96mself[39;49;00m._make_request(
+[1m[31m/nix/store/hhmp3gflmmpsfc6jgdlm947p99nyml8s-python3.8-urllib3-1.25.10/lib/python3.8/site-packages/urllib3/connectionpool.py[0m:417: in _make_request
+    httplib_response = conn.getresponse(buffering=[94mTrue[39;49;00m)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <vcr.patch.VCRRequestsHTTPSConnectiontests/fixtures/cassettes/vultr/IntegrationTests/test_provider_when_calling_create_record_for_TXT_with_fqdn_name_and_content.yaml object at 0x7ffff4f8c100>
+_ = False, kwargs = {'buffering': True}
+
+    [94mdef[39;49;00m [92mgetresponse[39;49;00m([96mself[39;49;00m, _=[94mFalse[39;49;00m, **kwargs):
+        [33m"""Retrieve the response"""[39;49;00m
+        [90m# Check to see if the cassette has a response for this request. If so,[39;49;00m
+        [90m# then return it[39;49;00m
+        [94mif[39;49;00m [96mself[39;49;00m.cassette.can_play_response_for([96mself[39;49;00m._vcr_request):
+            log.info([33m"[39;49;00m[33mPlaying response for [39;49;00m[33m{}[39;49;00m[33m from cassette[39;49;00m[33m"[39;49;00m.format([96mself[39;49;00m._vcr_request))
+            response = [96mself[39;49;00m.cassette.play_response([96mself[39;49;00m._vcr_request)
+            [94mreturn[39;49;00m VCRHTTPResponse(response)
+        [94melse[39;49;00m:
+            [94mif[39;49;00m [96mself[39;49;00m.cassette.write_protected [95mand[39;49;00m [96mself[39;49;00m.cassette.filter_request([96mself[39;49;00m._vcr_request):
+>               [94mraise[39;49;00m CannotOverwriteExistingCassetteException(
+                    cassette=[96mself[39;49;00m.cassette, failed_request=[96mself[39;49;00m._vcr_request
+                )
+[1m[31mE               vcr.errors.CannotOverwriteExistingCassetteException: Can't overwrite existing cassette ('tests/fixtures/cassettes/vultr/IntegrationTests/test_provider_when_calling_create_record_for_TXT_with_fqdn_name_and_content.yaml') in your current record mode ('none').[0m
+[1m[31mE               No match for the request (<Request (GET) https://api.vultr.com/v1/dns/list>) was found.[0m
+[1m[31mE               No similar requests, that have not been played, found.[0m
+
+[1m[31m/nix/store/7zq1hx1b1pydlbgxj6kff3s2kgq3rqfl-python3.8-vcrpy-4.1.0/lib/python3.8/site-packages/vcr/stubs/__init__.py[0m:231: CannotOverwriteExistingCassetteException
+[31m[1m_ VultrProviderTests.test_provider_when_calling_create_record_for_TXT_with_full_name_and_content _[0m
+
+self = <lexicon.tests.providers.test_vultr.VultrProviderTests testMethod=test_provider_when_calling_create_record_for_TXT_with_full_name_and_content>
+
+    [37m@_vcr_integration_test[39;49;00m
+    [94mdef[39;49;00m [92mtest_provider_when_calling_create_record_for_TXT_with_full_name_and_content[39;49;00m(
+        [96mself[39;49;00m,
+    ):
+>       provider = [96mself[39;49;00m._construct_authenticated_provider()
+
+[1m[31mlexicon/tests/providers/integration_tests.py[0m:163: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+[1m[31mlexicon/tests/providers/integration_tests.py[0m:444: in _construct_authenticated_provider
+    provider.authenticate()
+[1m[31mlexicon/providers/base.py[0m:74: in authenticate
+    [94mreturn[39;49;00m [96mself[39;49;00m._authenticate()
+[1m[31mlexicon/providers/vultr.py[0m:29: in _authenticate
+    payload = [96mself[39;49;00m._get([33m"[39;49;00m[33m/dns/list[39;49;00m[33m"[39;49;00m)
+[1m[31mlexicon/providers/base.py[0m:159: in _get
+    [94mreturn[39;49;00m [96mself[39;49;00m._request([33m"[39;49;00m[33mGET[39;49;00m[33m"[39;49;00m, url, query_params=query_params)
+[1m[31mlexicon/providers/vultr.py[0m:142: in _request
+    response = requests.request(
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/api.py[0m:61: in request
+    [94mreturn[39;49;00m session.request(method=method, url=url, **kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/sessions.py[0m:530: in request
+    resp = [96mself[39;49;00m.send(prep, **send_kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/sessions.py[0m:643: in send
+    r = adapter.send(request, **kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/adapters.py[0m:439: in send
+    resp = conn.urlopen(
+[1m[31m/nix/store/hhmp3gflmmpsfc6jgdlm947p99nyml8s-python3.8-urllib3-1.25.10/lib/python3.8/site-packages/urllib3/connectionpool.py[0m:670: in urlopen
+    httplib_response = [96mself[39;49;00m._make_request(
+[1m[31m/nix/store/hhmp3gflmmpsfc6jgdlm947p99nyml8s-python3.8-urllib3-1.25.10/lib/python3.8/site-packages/urllib3/connectionpool.py[0m:417: in _make_request
+    httplib_response = conn.getresponse(buffering=[94mTrue[39;49;00m)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <vcr.patch.VCRRequestsHTTPSConnectiontests/fixtures/cassettes/vultr/IntegrationTests/test_provider_when_calling_create_record_for_TXT_with_full_name_and_content.yaml object at 0x7ffff4f62670>
+_ = False, kwargs = {'buffering': True}
+
+    [94mdef[39;49;00m [92mgetresponse[39;49;00m([96mself[39;49;00m, _=[94mFalse[39;49;00m, **kwargs):
+        [33m"""Retrieve the response"""[39;49;00m
+        [90m# Check to see if the cassette has a response for this request. If so,[39;49;00m
+        [90m# then return it[39;49;00m
+        [94mif[39;49;00m [96mself[39;49;00m.cassette.can_play_response_for([96mself[39;49;00m._vcr_request):
+            log.info([33m"[39;49;00m[33mPlaying response for [39;49;00m[33m{}[39;49;00m[33m from cassette[39;49;00m[33m"[39;49;00m.format([96mself[39;49;00m._vcr_request))
+            response = [96mself[39;49;00m.cassette.play_response([96mself[39;49;00m._vcr_request)
+            [94mreturn[39;49;00m VCRHTTPResponse(response)
+        [94melse[39;49;00m:
+            [94mif[39;49;00m [96mself[39;49;00m.cassette.write_protected [95mand[39;49;00m [96mself[39;49;00m.cassette.filter_request([96mself[39;49;00m._vcr_request):
+>               [94mraise[39;49;00m CannotOverwriteExistingCassetteException(
+                    cassette=[96mself[39;49;00m.cassette, failed_request=[96mself[39;49;00m._vcr_request
+                )
+[1m[31mE               vcr.errors.CannotOverwriteExistingCassetteException: Can't overwrite existing cassette ('tests/fixtures/cassettes/vultr/IntegrationTests/test_provider_when_calling_create_record_for_TXT_with_full_name_and_content.yaml') in your current record mode ('none').[0m
+[1m[31mE               No match for the request (<Request (GET) https://api.vultr.com/v1/dns/list>) was found.[0m
+[1m[31mE               No similar requests, that have not been played, found.[0m
+
+[1m[31m/nix/store/7zq1hx1b1pydlbgxj6kff3s2kgq3rqfl-python3.8-vcrpy-4.1.0/lib/python3.8/site-packages/vcr/stubs/__init__.py[0m:231: CannotOverwriteExistingCassetteException
+[31m[1m_ VultrProviderTests.test_provider_when_calling_create_record_for_TXT_with_valid_name_and_content _[0m
+
+self = <lexicon.tests.providers.test_vultr.VultrProviderTests testMethod=test_provider_when_calling_create_record_for_TXT_with_valid_name_and_content>
+
+    [37m@_vcr_integration_test[39;49;00m
+    [94mdef[39;49;00m [92mtest_provider_when_calling_create_record_for_TXT_with_valid_name_and_content[39;49;00m(
+        [96mself[39;49;00m,
+    ):
+>       provider = [96mself[39;49;00m._construct_authenticated_provider()
+
+[1m[31mlexicon/tests/providers/integration_tests.py[0m:156: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+[1m[31mlexicon/tests/providers/integration_tests.py[0m:444: in _construct_authenticated_provider
+    provider.authenticate()
+[1m[31mlexicon/providers/base.py[0m:74: in authenticate
+    [94mreturn[39;49;00m [96mself[39;49;00m._authenticate()
+[1m[31mlexicon/providers/vultr.py[0m:29: in _authenticate
+    payload = [96mself[39;49;00m._get([33m"[39;49;00m[33m/dns/list[39;49;00m[33m"[39;49;00m)
+[1m[31mlexicon/providers/base.py[0m:159: in _get
+    [94mreturn[39;49;00m [96mself[39;49;00m._request([33m"[39;49;00m[33mGET[39;49;00m[33m"[39;49;00m, url, query_params=query_params)
+[1m[31mlexicon/providers/vultr.py[0m:142: in _request
+    response = requests.request(
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/api.py[0m:61: in request
+    [94mreturn[39;49;00m session.request(method=method, url=url, **kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/sessions.py[0m:530: in request
+    resp = [96mself[39;49;00m.send(prep, **send_kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/sessions.py[0m:643: in send
+    r = adapter.send(request, **kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/adapters.py[0m:439: in send
+    resp = conn.urlopen(
+[1m[31m/nix/store/hhmp3gflmmpsfc6jgdlm947p99nyml8s-python3.8-urllib3-1.25.10/lib/python3.8/site-packages/urllib3/connectionpool.py[0m:670: in urlopen
+    httplib_response = [96mself[39;49;00m._make_request(
+[1m[31m/nix/store/hhmp3gflmmpsfc6jgdlm947p99nyml8s-python3.8-urllib3-1.25.10/lib/python3.8/site-packages/urllib3/connectionpool.py[0m:417: in _make_request
+    httplib_response = conn.getresponse(buffering=[94mTrue[39;49;00m)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <vcr.patch.VCRRequestsHTTPSConnectiontests/fixtures/cassettes/vultr/IntegrationTests/test_provider_when_calling_create_record_for_TXT_with_valid_name_and_content.yaml object at 0x7ffff4e9d2b0>
+_ = False, kwargs = {'buffering': True}
+
+    [94mdef[39;49;00m [92mgetresponse[39;49;00m([96mself[39;49;00m, _=[94mFalse[39;49;00m, **kwargs):
+        [33m"""Retrieve the response"""[39;49;00m
+        [90m# Check to see if the cassette has a response for this request. If so,[39;49;00m
+        [90m# then return it[39;49;00m
+        [94mif[39;49;00m [96mself[39;49;00m.cassette.can_play_response_for([96mself[39;49;00m._vcr_request):
+            log.info([33m"[39;49;00m[33mPlaying response for [39;49;00m[33m{}[39;49;00m[33m from cassette[39;49;00m[33m"[39;49;00m.format([96mself[39;49;00m._vcr_request))
+            response = [96mself[39;49;00m.cassette.play_response([96mself[39;49;00m._vcr_request)
+            [94mreturn[39;49;00m VCRHTTPResponse(response)
+        [94melse[39;49;00m:
+            [94mif[39;49;00m [96mself[39;49;00m.cassette.write_protected [95mand[39;49;00m [96mself[39;49;00m.cassette.filter_request([96mself[39;49;00m._vcr_request):
+>               [94mraise[39;49;00m CannotOverwriteExistingCassetteException(
+                    cassette=[96mself[39;49;00m.cassette, failed_request=[96mself[39;49;00m._vcr_request
+                )
+[1m[31mE               vcr.errors.CannotOverwriteExistingCassetteException: Can't overwrite existing cassette ('tests/fixtures/cassettes/vultr/IntegrationTests/test_provider_when_calling_create_record_for_TXT_with_valid_name_and_content.yaml') in your current record mode ('none').[0m
+[1m[31mE               No match for the request (<Request (GET) https://api.vultr.com/v1/dns/list>) was found.[0m
+[1m[31mE               No similar requests, that have not been played, found.[0m
+
+[1m[31m/nix/store/7zq1hx1b1pydlbgxj6kff3s2kgq3rqfl-python3.8-vcrpy-4.1.0/lib/python3.8/site-packages/vcr/stubs/__init__.py[0m:231: CannotOverwriteExistingCassetteException
+[31m[1m_ VultrProviderTests.test_provider_when_calling_delete_record_by_filter_should_remove_record _[0m
+
+self = <lexicon.tests.providers.test_vultr.VultrProviderTests testMethod=test_provider_when_calling_delete_record_by_filter_should_remove_record>
+
+    [37m@_vcr_integration_test[39;49;00m
+    [94mdef[39;49;00m [92mtest_provider_when_calling_delete_record_by_filter_should_remove_record[39;49;00m([96mself[39;49;00m):
+>       provider = [96mself[39;49;00m._construct_authenticated_provider()
+
+[1m[31mlexicon/tests/providers/integration_tests.py[0m:323: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+[1m[31mlexicon/tests/providers/integration_tests.py[0m:444: in _construct_authenticated_provider
+    provider.authenticate()
+[1m[31mlexicon/providers/base.py[0m:74: in authenticate
+    [94mreturn[39;49;00m [96mself[39;49;00m._authenticate()
+[1m[31mlexicon/providers/vultr.py[0m:29: in _authenticate
+    payload = [96mself[39;49;00m._get([33m"[39;49;00m[33m/dns/list[39;49;00m[33m"[39;49;00m)
+[1m[31mlexicon/providers/base.py[0m:159: in _get
+    [94mreturn[39;49;00m [96mself[39;49;00m._request([33m"[39;49;00m[33mGET[39;49;00m[33m"[39;49;00m, url, query_params=query_params)
+[1m[31mlexicon/providers/vultr.py[0m:142: in _request
+    response = requests.request(
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/api.py[0m:61: in request
+    [94mreturn[39;49;00m session.request(method=method, url=url, **kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/sessions.py[0m:530: in request
+    resp = [96mself[39;49;00m.send(prep, **send_kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/sessions.py[0m:643: in send
+    r = adapter.send(request, **kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/adapters.py[0m:439: in send
+    resp = conn.urlopen(
+[1m[31m/nix/store/hhmp3gflmmpsfc6jgdlm947p99nyml8s-python3.8-urllib3-1.25.10/lib/python3.8/site-packages/urllib3/connectionpool.py[0m:670: in urlopen
+    httplib_response = [96mself[39;49;00m._make_request(
+[1m[31m/nix/store/hhmp3gflmmpsfc6jgdlm947p99nyml8s-python3.8-urllib3-1.25.10/lib/python3.8/site-packages/urllib3/connectionpool.py[0m:417: in _make_request
+    httplib_response = conn.getresponse(buffering=[94mTrue[39;49;00m)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <vcr.patch.VCRRequestsHTTPSConnectiontests/fixtures/cassettes/vultr/IntegrationTests/test_provider_when_calling_delete_record_by_filter_should_remove_record.yaml object at 0x7ffff4c6aaf0>
+_ = False, kwargs = {'buffering': True}
+
+    [94mdef[39;49;00m [92mgetresponse[39;49;00m([96mself[39;49;00m, _=[94mFalse[39;49;00m, **kwargs):
+        [33m"""Retrieve the response"""[39;49;00m
+        [90m# Check to see if the cassette has a response for this request. If so,[39;49;00m
+        [90m# then return it[39;49;00m
+        [94mif[39;49;00m [96mself[39;49;00m.cassette.can_play_response_for([96mself[39;49;00m._vcr_request):
+            log.info([33m"[39;49;00m[33mPlaying response for [39;49;00m[33m{}[39;49;00m[33m from cassette[39;49;00m[33m"[39;49;00m.format([96mself[39;49;00m._vcr_request))
+            response = [96mself[39;49;00m.cassette.play_response([96mself[39;49;00m._vcr_request)
+            [94mreturn[39;49;00m VCRHTTPResponse(response)
+        [94melse[39;49;00m:
+            [94mif[39;49;00m [96mself[39;49;00m.cassette.write_protected [95mand[39;49;00m [96mself[39;49;00m.cassette.filter_request([96mself[39;49;00m._vcr_request):
+>               [94mraise[39;49;00m CannotOverwriteExistingCassetteException(
+                    cassette=[96mself[39;49;00m.cassette, failed_request=[96mself[39;49;00m._vcr_request
+                )
+[1m[31mE               vcr.errors.CannotOverwriteExistingCassetteException: Can't overwrite existing cassette ('tests/fixtures/cassettes/vultr/IntegrationTests/test_provider_when_calling_delete_record_by_filter_should_remove_record.yaml') in your current record mode ('none').[0m
+[1m[31mE               No match for the request (<Request (GET) https://api.vultr.com/v1/dns/list>) was found.[0m
+[1m[31mE               No similar requests, that have not been played, found.[0m
+
+[1m[31m/nix/store/7zq1hx1b1pydlbgxj6kff3s2kgq3rqfl-python3.8-vcrpy-4.1.0/lib/python3.8/site-packages/vcr/stubs/__init__.py[0m:231: CannotOverwriteExistingCassetteException
+[31m[1m_ VultrProviderTests.test_provider_when_calling_delete_record_by_filter_with_fqdn_name_should_remove_record _[0m
+
+self = <lexicon.tests.providers.test_vultr.VultrProviderTests testMethod=test_provider_when_calling_delete_record_by_filter_with_fqdn_name_should_remove_record>
+
+    [37m@_vcr_integration_test[39;49;00m
+    [94mdef[39;49;00m [92mtest_provider_when_calling_delete_record_by_filter_with_fqdn_name_should_remove_record[39;49;00m(
+        [96mself[39;49;00m,
+    ):
+>       provider = [96mself[39;49;00m._construct_authenticated_provider()
+
+[1m[31mlexicon/tests/providers/integration_tests.py[0m:349: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+[1m[31mlexicon/tests/providers/integration_tests.py[0m:444: in _construct_authenticated_provider
+    provider.authenticate()
+[1m[31mlexicon/providers/base.py[0m:74: in authenticate
+    [94mreturn[39;49;00m [96mself[39;49;00m._authenticate()
+[1m[31mlexicon/providers/vultr.py[0m:29: in _authenticate
+    payload = [96mself[39;49;00m._get([33m"[39;49;00m[33m/dns/list[39;49;00m[33m"[39;49;00m)
+[1m[31mlexicon/providers/base.py[0m:159: in _get
+    [94mreturn[39;49;00m [96mself[39;49;00m._request([33m"[39;49;00m[33mGET[39;49;00m[33m"[39;49;00m, url, query_params=query_params)
+[1m[31mlexicon/providers/vultr.py[0m:142: in _request
+    response = requests.request(
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/api.py[0m:61: in request
+    [94mreturn[39;49;00m session.request(method=method, url=url, **kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/sessions.py[0m:530: in request
+    resp = [96mself[39;49;00m.send(prep, **send_kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/sessions.py[0m:643: in send
+    r = adapter.send(request, **kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/adapters.py[0m:439: in send
+    resp = conn.urlopen(
+[1m[31m/nix/store/hhmp3gflmmpsfc6jgdlm947p99nyml8s-python3.8-urllib3-1.25.10/lib/python3.8/site-packages/urllib3/connectionpool.py[0m:670: in urlopen
+    httplib_response = [96mself[39;49;00m._make_request(
+[1m[31m/nix/store/hhmp3gflmmpsfc6jgdlm947p99nyml8s-python3.8-urllib3-1.25.10/lib/python3.8/site-packages/urllib3/connectionpool.py[0m:417: in _make_request
+    httplib_response = conn.getresponse(buffering=[94mTrue[39;49;00m)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <vcr.patch.VCRRequestsHTTPSConnectiontests/fixtures/cassettes/vultr/IntegrationTests/test_provider_when_calling_delete_record_by_filter_with_fqdn_name_should_remove_record.yaml object at 0x7ffff4ea6760>
+_ = False, kwargs = {'buffering': True}
+
+    [94mdef[39;49;00m [92mgetresponse[39;49;00m([96mself[39;49;00m, _=[94mFalse[39;49;00m, **kwargs):
+        [33m"""Retrieve the response"""[39;49;00m
+        [90m# Check to see if the cassette has a response for this request. If so,[39;49;00m
+        [90m# then return it[39;49;00m
+        [94mif[39;49;00m [96mself[39;49;00m.cassette.can_play_response_for([96mself[39;49;00m._vcr_request):
+            log.info([33m"[39;49;00m[33mPlaying response for [39;49;00m[33m{}[39;49;00m[33m from cassette[39;49;00m[33m"[39;49;00m.format([96mself[39;49;00m._vcr_request))
+            response = [96mself[39;49;00m.cassette.play_response([96mself[39;49;00m._vcr_request)
+            [94mreturn[39;49;00m VCRHTTPResponse(response)
+        [94melse[39;49;00m:
+            [94mif[39;49;00m [96mself[39;49;00m.cassette.write_protected [95mand[39;49;00m [96mself[39;49;00m.cassette.filter_request([96mself[39;49;00m._vcr_request):
+>               [94mraise[39;49;00m CannotOverwriteExistingCassetteException(
+                    cassette=[96mself[39;49;00m.cassette, failed_request=[96mself[39;49;00m._vcr_request
+                )
+[1m[31mE               vcr.errors.CannotOverwriteExistingCassetteException: Can't overwrite existing cassette ('tests/fixtures/cassettes/vultr/IntegrationTests/test_provider_when_calling_delete_record_by_filter_with_fqdn_name_should_remove_record.yaml') in your current record mode ('none').[0m
+[1m[31mE               No match for the request (<Request (GET) https://api.vultr.com/v1/dns/list>) was found.[0m
+[1m[31mE               No similar requests, that have not been played, found.[0m
+
+[1m[31m/nix/store/7zq1hx1b1pydlbgxj6kff3s2kgq3rqfl-python3.8-vcrpy-4.1.0/lib/python3.8/site-packages/vcr/stubs/__init__.py[0m:231: CannotOverwriteExistingCassetteException
+[31m[1m_ VultrProviderTests.test_provider_when_calling_delete_record_by_filter_with_full_name_should_remove_record _[0m
+
+self = <lexicon.tests.providers.test_vultr.VultrProviderTests testMethod=test_provider_when_calling_delete_record_by_filter_with_full_name_should_remove_record>
+
+    [37m@_vcr_integration_test[39;49;00m
+    [94mdef[39;49;00m [92mtest_provider_when_calling_delete_record_by_filter_with_full_name_should_remove_record[39;49;00m(
+        [96mself[39;49;00m,
+    ):
+>       provider = [96mself[39;49;00m._construct_authenticated_provider()
+
+[1m[31mlexicon/tests/providers/integration_tests.py[0m:333: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+[1m[31mlexicon/tests/providers/integration_tests.py[0m:444: in _construct_authenticated_provider
+    provider.authenticate()
+[1m[31mlexicon/providers/base.py[0m:74: in authenticate
+    [94mreturn[39;49;00m [96mself[39;49;00m._authenticate()
+[1m[31mlexicon/providers/vultr.py[0m:29: in _authenticate
+    payload = [96mself[39;49;00m._get([33m"[39;49;00m[33m/dns/list[39;49;00m[33m"[39;49;00m)
+[1m[31mlexicon/providers/base.py[0m:159: in _get
+    [94mreturn[39;49;00m [96mself[39;49;00m._request([33m"[39;49;00m[33mGET[39;49;00m[33m"[39;49;00m, url, query_params=query_params)
+[1m[31mlexicon/providers/vultr.py[0m:142: in _request
+    response = requests.request(
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/api.py[0m:61: in request
+    [94mreturn[39;49;00m session.request(method=method, url=url, **kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/sessions.py[0m:530: in request
+    resp = [96mself[39;49;00m.send(prep, **send_kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/sessions.py[0m:643: in send
+    r = adapter.send(request, **kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/adapters.py[0m:439: in send
+    resp = conn.urlopen(
+[1m[31m/nix/store/hhmp3gflmmpsfc6jgdlm947p99nyml8s-python3.8-urllib3-1.25.10/lib/python3.8/site-packages/urllib3/connectionpool.py[0m:670: in urlopen
+    httplib_response = [96mself[39;49;00m._make_request(
+[1m[31m/nix/store/hhmp3gflmmpsfc6jgdlm947p99nyml8s-python3.8-urllib3-1.25.10/lib/python3.8/site-packages/urllib3/connectionpool.py[0m:417: in _make_request
+    httplib_response = conn.getresponse(buffering=[94mTrue[39;49;00m)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <vcr.patch.VCRRequestsHTTPSConnectiontests/fixtures/cassettes/vultr/IntegrationTests/test_provider_when_calling_delete_record_by_filter_with_full_name_should_remove_record.yaml object at 0x7ffff4c83ac0>
+_ = False, kwargs = {'buffering': True}
+
+    [94mdef[39;49;00m [92mgetresponse[39;49;00m([96mself[39;49;00m, _=[94mFalse[39;49;00m, **kwargs):
+        [33m"""Retrieve the response"""[39;49;00m
+        [90m# Check to see if the cassette has a response for this request. If so,[39;49;00m
+        [90m# then return it[39;49;00m
+        [94mif[39;49;00m [96mself[39;49;00m.cassette.can_play_response_for([96mself[39;49;00m._vcr_request):
+            log.info([33m"[39;49;00m[33mPlaying response for [39;49;00m[33m{}[39;49;00m[33m from cassette[39;49;00m[33m"[39;49;00m.format([96mself[39;49;00m._vcr_request))
+            response = [96mself[39;49;00m.cassette.play_response([96mself[39;49;00m._vcr_request)
+            [94mreturn[39;49;00m VCRHTTPResponse(response)
+        [94melse[39;49;00m:
+            [94mif[39;49;00m [96mself[39;49;00m.cassette.write_protected [95mand[39;49;00m [96mself[39;49;00m.cassette.filter_request([96mself[39;49;00m._vcr_request):
+>               [94mraise[39;49;00m CannotOverwriteExistingCassetteException(
+                    cassette=[96mself[39;49;00m.cassette, failed_request=[96mself[39;49;00m._vcr_request
+                )
+[1m[31mE               vcr.errors.CannotOverwriteExistingCassetteException: Can't overwrite existing cassette ('tests/fixtures/cassettes/vultr/IntegrationTests/test_provider_when_calling_delete_record_by_filter_with_full_name_should_remove_record.yaml') in your current record mode ('none').[0m
+[1m[31mE               No match for the request (<Request (GET) https://api.vultr.com/v1/dns/list>) was found.[0m
+[1m[31mE               No similar requests, that have not been played, found.[0m
+
+[1m[31m/nix/store/7zq1hx1b1pydlbgxj6kff3s2kgq3rqfl-python3.8-vcrpy-4.1.0/lib/python3.8/site-packages/vcr/stubs/__init__.py[0m:231: CannotOverwriteExistingCassetteException
+[31m[1m_ VultrProviderTests.test_provider_when_calling_delete_record_by_identifier_should_remove_record _[0m
+
+self = <lexicon.tests.providers.test_vultr.VultrProviderTests testMethod=test_provider_when_calling_delete_record_by_identifier_should_remove_record>
+
+    [37m@_vcr_integration_test[39;49;00m
+    [94mdef[39;49;00m [92mtest_provider_when_calling_delete_record_by_identifier_should_remove_record[39;49;00m(
+        [96mself[39;49;00m,
+    ):
+>       provider = [96mself[39;49;00m._construct_authenticated_provider()
+
+[1m[31mlexicon/tests/providers/integration_tests.py[0m:314: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+[1m[31mlexicon/tests/providers/integration_tests.py[0m:444: in _construct_authenticated_provider
+    provider.authenticate()
+[1m[31mlexicon/providers/base.py[0m:74: in authenticate
+    [94mreturn[39;49;00m [96mself[39;49;00m._authenticate()
+[1m[31mlexicon/providers/vultr.py[0m:29: in _authenticate
+    payload = [96mself[39;49;00m._get([33m"[39;49;00m[33m/dns/list[39;49;00m[33m"[39;49;00m)
+[1m[31mlexicon/providers/base.py[0m:159: in _get
+    [94mreturn[39;49;00m [96mself[39;49;00m._request([33m"[39;49;00m[33mGET[39;49;00m[33m"[39;49;00m, url, query_params=query_params)
+[1m[31mlexicon/providers/vultr.py[0m:142: in _request
+    response = requests.request(
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/api.py[0m:61: in request
+    [94mreturn[39;49;00m session.request(method=method, url=url, **kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/sessions.py[0m:530: in request
+    resp = [96mself[39;49;00m.send(prep, **send_kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/sessions.py[0m:643: in send
+    r = adapter.send(request, **kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/adapters.py[0m:439: in send
+    resp = conn.urlopen(
+[1m[31m/nix/store/hhmp3gflmmpsfc6jgdlm947p99nyml8s-python3.8-urllib3-1.25.10/lib/python3.8/site-packages/urllib3/connectionpool.py[0m:670: in urlopen
+    httplib_response = [96mself[39;49;00m._make_request(
+[1m[31m/nix/store/hhmp3gflmmpsfc6jgdlm947p99nyml8s-python3.8-urllib3-1.25.10/lib/python3.8/site-packages/urllib3/connectionpool.py[0m:417: in _make_request
+    httplib_response = conn.getresponse(buffering=[94mTrue[39;49;00m)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <vcr.patch.VCRRequestsHTTPSConnectiontests/fixtures/cassettes/vultr/IntegrationTests/test_provider_when_calling_delete_record_by_identifier_should_remove_record.yaml object at 0x7ffff4dea130>
+_ = False, kwargs = {'buffering': True}
+
+    [94mdef[39;49;00m [92mgetresponse[39;49;00m([96mself[39;49;00m, _=[94mFalse[39;49;00m, **kwargs):
+        [33m"""Retrieve the response"""[39;49;00m
+        [90m# Check to see if the cassette has a response for this request. If so,[39;49;00m
+        [90m# then return it[39;49;00m
+        [94mif[39;49;00m [96mself[39;49;00m.cassette.can_play_response_for([96mself[39;49;00m._vcr_request):
+            log.info([33m"[39;49;00m[33mPlaying response for [39;49;00m[33m{}[39;49;00m[33m from cassette[39;49;00m[33m"[39;49;00m.format([96mself[39;49;00m._vcr_request))
+            response = [96mself[39;49;00m.cassette.play_response([96mself[39;49;00m._vcr_request)
+            [94mreturn[39;49;00m VCRHTTPResponse(response)
+        [94melse[39;49;00m:
+            [94mif[39;49;00m [96mself[39;49;00m.cassette.write_protected [95mand[39;49;00m [96mself[39;49;00m.cassette.filter_request([96mself[39;49;00m._vcr_request):
+>               [94mraise[39;49;00m CannotOverwriteExistingCassetteException(
+                    cassette=[96mself[39;49;00m.cassette, failed_request=[96mself[39;49;00m._vcr_request
+                )
+[1m[31mE               vcr.errors.CannotOverwriteExistingCassetteException: Can't overwrite existing cassette ('tests/fixtures/cassettes/vultr/IntegrationTests/test_provider_when_calling_delete_record_by_identifier_should_remove_record.yaml') in your current record mode ('none').[0m
+[1m[31mE               No match for the request (<Request (GET) https://api.vultr.com/v1/dns/list>) was found.[0m
+[1m[31mE               No similar requests, that have not been played, found.[0m
+
+[1m[31m/nix/store/7zq1hx1b1pydlbgxj6kff3s2kgq3rqfl-python3.8-vcrpy-4.1.0/lib/python3.8/site-packages/vcr/stubs/__init__.py[0m:231: CannotOverwriteExistingCassetteException
+[31m[1m_ VultrProviderTests.test_provider_when_calling_list_records_after_setting_ttl _[0m
+
+self = <lexicon.tests.providers.test_vultr.VultrProviderTests testMethod=test_provider_when_calling_list_records_after_setting_ttl>
+
+    [37m@_vcr_integration_test[39;49;00m
+    [94mdef[39;49;00m [92mtest_provider_when_calling_list_records_after_setting_ttl[39;49;00m([96mself[39;49;00m):
+>       provider = [96mself[39;49;00m._construct_authenticated_provider()
+
+[1m[31mlexicon/tests/providers/integration_tests.py[0m:231: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+[1m[31mlexicon/tests/providers/integration_tests.py[0m:444: in _construct_authenticated_provider
+    provider.authenticate()
+[1m[31mlexicon/providers/base.py[0m:74: in authenticate
+    [94mreturn[39;49;00m [96mself[39;49;00m._authenticate()
+[1m[31mlexicon/providers/vultr.py[0m:29: in _authenticate
+    payload = [96mself[39;49;00m._get([33m"[39;49;00m[33m/dns/list[39;49;00m[33m"[39;49;00m)
+[1m[31mlexicon/providers/base.py[0m:159: in _get
+    [94mreturn[39;49;00m [96mself[39;49;00m._request([33m"[39;49;00m[33mGET[39;49;00m[33m"[39;49;00m, url, query_params=query_params)
+[1m[31mlexicon/providers/vultr.py[0m:142: in _request
+    response = requests.request(
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/api.py[0m:61: in request
+    [94mreturn[39;49;00m session.request(method=method, url=url, **kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/sessions.py[0m:530: in request
+    resp = [96mself[39;49;00m.send(prep, **send_kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/sessions.py[0m:643: in send
+    r = adapter.send(request, **kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/adapters.py[0m:439: in send
+    resp = conn.urlopen(
+[1m[31m/nix/store/hhmp3gflmmpsfc6jgdlm947p99nyml8s-python3.8-urllib3-1.25.10/lib/python3.8/site-packages/urllib3/connectionpool.py[0m:670: in urlopen
+    httplib_response = [96mself[39;49;00m._make_request(
+[1m[31m/nix/store/hhmp3gflmmpsfc6jgdlm947p99nyml8s-python3.8-urllib3-1.25.10/lib/python3.8/site-packages/urllib3/connectionpool.py[0m:417: in _make_request
+    httplib_response = conn.getresponse(buffering=[94mTrue[39;49;00m)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <vcr.patch.VCRRequestsHTTPSConnectiontests/fixtures/cassettes/vultr/IntegrationTests/test_provider_when_calling_list_records_after_setting_ttl.yaml object at 0x7ffff4f29e80>
+_ = False, kwargs = {'buffering': True}
+
+    [94mdef[39;49;00m [92mgetresponse[39;49;00m([96mself[39;49;00m, _=[94mFalse[39;49;00m, **kwargs):
+        [33m"""Retrieve the response"""[39;49;00m
+        [90m# Check to see if the cassette has a response for this request. If so,[39;49;00m
+        [90m# then return it[39;49;00m
+        [94mif[39;49;00m [96mself[39;49;00m.cassette.can_play_response_for([96mself[39;49;00m._vcr_request):
+            log.info([33m"[39;49;00m[33mPlaying response for [39;49;00m[33m{}[39;49;00m[33m from cassette[39;49;00m[33m"[39;49;00m.format([96mself[39;49;00m._vcr_request))
+            response = [96mself[39;49;00m.cassette.play_response([96mself[39;49;00m._vcr_request)
+            [94mreturn[39;49;00m VCRHTTPResponse(response)
+        [94melse[39;49;00m:
+            [94mif[39;49;00m [96mself[39;49;00m.cassette.write_protected [95mand[39;49;00m [96mself[39;49;00m.cassette.filter_request([96mself[39;49;00m._vcr_request):
+>               [94mraise[39;49;00m CannotOverwriteExistingCassetteException(
+                    cassette=[96mself[39;49;00m.cassette, failed_request=[96mself[39;49;00m._vcr_request
+                )
+[1m[31mE               vcr.errors.CannotOverwriteExistingCassetteException: Can't overwrite existing cassette ('tests/fixtures/cassettes/vultr/IntegrationTests/test_provider_when_calling_list_records_after_setting_ttl.yaml') in your current record mode ('none').[0m
+[1m[31mE               No match for the request (<Request (GET) https://api.vultr.com/v1/dns/list>) was found.[0m
+[1m[31mE               No similar requests, that have not been played, found.[0m
+
+[1m[31m/nix/store/7zq1hx1b1pydlbgxj6kff3s2kgq3rqfl-python3.8-vcrpy-4.1.0/lib/python3.8/site-packages/vcr/stubs/__init__.py[0m:231: CannotOverwriteExistingCassetteException
+[31m[1m_ VultrProviderTests.test_provider_when_calling_list_records_with_fqdn_name_filter_should_return_record _[0m
+
+self = <lexicon.tests.providers.test_vultr.VultrProviderTests testMethod=test_provider_when_calling_list_records_with_fqdn_name_filter_should_return_record>
+
+    [37m@_vcr_integration_test[39;49;00m
+    [94mdef[39;49;00m [92mtest_provider_when_calling_list_records_with_fqdn_name_filter_should_return_record[39;49;00m(
+        [96mself[39;49;00m,
+    ):
+>       provider = [96mself[39;49;00m._construct_authenticated_provider()
+
+[1m[31mlexicon/tests/providers/integration_tests.py[0m:217: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+[1m[31mlexicon/tests/providers/integration_tests.py[0m:444: in _construct_authenticated_provider
+    provider.authenticate()
+[1m[31mlexicon/providers/base.py[0m:74: in authenticate
+    [94mreturn[39;49;00m [96mself[39;49;00m._authenticate()
+[1m[31mlexicon/providers/vultr.py[0m:29: in _authenticate
+    payload = [96mself[39;49;00m._get([33m"[39;49;00m[33m/dns/list[39;49;00m[33m"[39;49;00m)
+[1m[31mlexicon/providers/base.py[0m:159: in _get
+    [94mreturn[39;49;00m [96mself[39;49;00m._request([33m"[39;49;00m[33mGET[39;49;00m[33m"[39;49;00m, url, query_params=query_params)
+[1m[31mlexicon/providers/vultr.py[0m:142: in _request
+    response = requests.request(
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/api.py[0m:61: in request
+    [94mreturn[39;49;00m session.request(method=method, url=url, **kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/sessions.py[0m:530: in request
+    resp = [96mself[39;49;00m.send(prep, **send_kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/sessions.py[0m:643: in send
+    r = adapter.send(request, **kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/adapters.py[0m:439: in send
+    resp = conn.urlopen(
+[1m[31m/nix/store/hhmp3gflmmpsfc6jgdlm947p99nyml8s-python3.8-urllib3-1.25.10/lib/python3.8/site-packages/urllib3/connectionpool.py[0m:670: in urlopen
+    httplib_response = [96mself[39;49;00m._make_request(
+[1m[31m/nix/store/hhmp3gflmmpsfc6jgdlm947p99nyml8s-python3.8-urllib3-1.25.10/lib/python3.8/site-packages/urllib3/connectionpool.py[0m:417: in _make_request
+    httplib_response = conn.getresponse(buffering=[94mTrue[39;49;00m)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <vcr.patch.VCRRequestsHTTPSConnectiontests/fixtures/cassettes/vultr/IntegrationTests/test_provider_when_calling_list_records_with_fqdn_name_filter_should_return_record.yaml object at 0x7ffff4cfd7f0>
+_ = False, kwargs = {'buffering': True}
+
+    [94mdef[39;49;00m [92mgetresponse[39;49;00m([96mself[39;49;00m, _=[94mFalse[39;49;00m, **kwargs):
+        [33m"""Retrieve the response"""[39;49;00m
+        [90m# Check to see if the cassette has a response for this request. If so,[39;49;00m
+        [90m# then return it[39;49;00m
+        [94mif[39;49;00m [96mself[39;49;00m.cassette.can_play_response_for([96mself[39;49;00m._vcr_request):
+            log.info([33m"[39;49;00m[33mPlaying response for [39;49;00m[33m{}[39;49;00m[33m from cassette[39;49;00m[33m"[39;49;00m.format([96mself[39;49;00m._vcr_request))
+            response = [96mself[39;49;00m.cassette.play_response([96mself[39;49;00m._vcr_request)
+            [94mreturn[39;49;00m VCRHTTPResponse(response)
+        [94melse[39;49;00m:
+            [94mif[39;49;00m [96mself[39;49;00m.cassette.write_protected [95mand[39;49;00m [96mself[39;49;00m.cassette.filter_request([96mself[39;49;00m._vcr_request):
+>               [94mraise[39;49;00m CannotOverwriteExistingCassetteException(
+                    cassette=[96mself[39;49;00m.cassette, failed_request=[96mself[39;49;00m._vcr_request
+                )
+[1m[31mE               vcr.errors.CannotOverwriteExistingCassetteException: Can't overwrite existing cassette ('tests/fixtures/cassettes/vultr/IntegrationTests/test_provider_when_calling_list_records_with_fqdn_name_filter_should_return_record.yaml') in your current record mode ('none').[0m
+[1m[31mE               No match for the request (<Request (GET) https://api.vultr.com/v1/dns/list>) was found.[0m
+[1m[31mE               No similar requests, that have not been played, found.[0m
+
+[1m[31m/nix/store/7zq1hx1b1pydlbgxj6kff3s2kgq3rqfl-python3.8-vcrpy-4.1.0/lib/python3.8/site-packages/vcr/stubs/__init__.py[0m:231: CannotOverwriteExistingCassetteException
+[31m[1m_ VultrProviderTests.test_provider_when_calling_list_records_with_full_name_filter_should_return_record _[0m
+
+self = <lexicon.tests.providers.test_vultr.VultrProviderTests testMethod=test_provider_when_calling_list_records_with_full_name_filter_should_return_record>
+
+    [37m@_vcr_integration_test[39;49;00m
+    [94mdef[39;49;00m [92mtest_provider_when_calling_list_records_with_full_name_filter_should_return_record[39;49;00m(
+        [96mself[39;49;00m,
+    ):
+>       provider = [96mself[39;49;00m._construct_authenticated_provider()
+
+[1m[31mlexicon/tests/providers/integration_tests.py[0m:201: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+[1m[31mlexicon/tests/providers/integration_tests.py[0m:444: in _construct_authenticated_provider
+    provider.authenticate()
+[1m[31mlexicon/providers/base.py[0m:74: in authenticate
+    [94mreturn[39;49;00m [96mself[39;49;00m._authenticate()
+[1m[31mlexicon/providers/vultr.py[0m:29: in _authenticate
+    payload = [96mself[39;49;00m._get([33m"[39;49;00m[33m/dns/list[39;49;00m[33m"[39;49;00m)
+[1m[31mlexicon/providers/base.py[0m:159: in _get
+    [94mreturn[39;49;00m [96mself[39;49;00m._request([33m"[39;49;00m[33mGET[39;49;00m[33m"[39;49;00m, url, query_params=query_params)
+[1m[31mlexicon/providers/vultr.py[0m:142: in _request
+    response = requests.request(
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/api.py[0m:61: in request
+    [94mreturn[39;49;00m session.request(method=method, url=url, **kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/sessions.py[0m:530: in request
+    resp = [96mself[39;49;00m.send(prep, **send_kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/sessions.py[0m:643: in send
+    r = adapter.send(request, **kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/adapters.py[0m:439: in send
+    resp = conn.urlopen(
+[1m[31m/nix/store/hhmp3gflmmpsfc6jgdlm947p99nyml8s-python3.8-urllib3-1.25.10/lib/python3.8/site-packages/urllib3/connectionpool.py[0m:670: in urlopen
+    httplib_response = [96mself[39;49;00m._make_request(
+[1m[31m/nix/store/hhmp3gflmmpsfc6jgdlm947p99nyml8s-python3.8-urllib3-1.25.10/lib/python3.8/site-packages/urllib3/connectionpool.py[0m:417: in _make_request
+    httplib_response = conn.getresponse(buffering=[94mTrue[39;49;00m)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <vcr.patch.VCRRequestsHTTPSConnectiontests/fixtures/cassettes/vultr/IntegrationTests/test_provider_when_calling_list_records_with_full_name_filter_should_return_record.yaml object at 0x7ffff4e71e50>
+_ = False, kwargs = {'buffering': True}
+
+    [94mdef[39;49;00m [92mgetresponse[39;49;00m([96mself[39;49;00m, _=[94mFalse[39;49;00m, **kwargs):
+        [33m"""Retrieve the response"""[39;49;00m
+        [90m# Check to see if the cassette has a response for this request. If so,[39;49;00m
+        [90m# then return it[39;49;00m
+        [94mif[39;49;00m [96mself[39;49;00m.cassette.can_play_response_for([96mself[39;49;00m._vcr_request):
+            log.info([33m"[39;49;00m[33mPlaying response for [39;49;00m[33m{}[39;49;00m[33m from cassette[39;49;00m[33m"[39;49;00m.format([96mself[39;49;00m._vcr_request))
+            response = [96mself[39;49;00m.cassette.play_response([96mself[39;49;00m._vcr_request)
+            [94mreturn[39;49;00m VCRHTTPResponse(response)
+        [94melse[39;49;00m:
+            [94mif[39;49;00m [96mself[39;49;00m.cassette.write_protected [95mand[39;49;00m [96mself[39;49;00m.cassette.filter_request([96mself[39;49;00m._vcr_request):
+>               [94mraise[39;49;00m CannotOverwriteExistingCassetteException(
+                    cassette=[96mself[39;49;00m.cassette, failed_request=[96mself[39;49;00m._vcr_request
+                )
+[1m[31mE               vcr.errors.CannotOverwriteExistingCassetteException: Can't overwrite existing cassette ('tests/fixtures/cassettes/vultr/IntegrationTests/test_provider_when_calling_list_records_with_full_name_filter_should_return_record.yaml') in your current record mode ('none').[0m
+[1m[31mE               No match for the request (<Request (GET) https://api.vultr.com/v1/dns/list>) was found.[0m
+[1m[31mE               No similar requests, that have not been played, found.[0m
+
+[1m[31m/nix/store/7zq1hx1b1pydlbgxj6kff3s2kgq3rqfl-python3.8-vcrpy-4.1.0/lib/python3.8/site-packages/vcr/stubs/__init__.py[0m:231: CannotOverwriteExistingCassetteException
+[31m[1m_ VultrProviderTests.test_provider_when_calling_list_records_with_name_filter_should_return_record _[0m
+
+self = <lexicon.tests.providers.test_vultr.VultrProviderTests testMethod=test_provider_when_calling_list_records_with_name_filter_should_return_record>
+
+    [37m@_vcr_integration_test[39;49;00m
+    [94mdef[39;49;00m [92mtest_provider_when_calling_list_records_with_name_filter_should_return_record[39;49;00m(
+        [96mself[39;49;00m,
+    ):
+>       provider = [96mself[39;49;00m._construct_authenticated_provider()
+
+[1m[31mlexicon/tests/providers/integration_tests.py[0m:189: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+[1m[31mlexicon/tests/providers/integration_tests.py[0m:444: in _construct_authenticated_provider
+    provider.authenticate()
+[1m[31mlexicon/providers/base.py[0m:74: in authenticate
+    [94mreturn[39;49;00m [96mself[39;49;00m._authenticate()
+[1m[31mlexicon/providers/vultr.py[0m:29: in _authenticate
+    payload = [96mself[39;49;00m._get([33m"[39;49;00m[33m/dns/list[39;49;00m[33m"[39;49;00m)
+[1m[31mlexicon/providers/base.py[0m:159: in _get
+    [94mreturn[39;49;00m [96mself[39;49;00m._request([33m"[39;49;00m[33mGET[39;49;00m[33m"[39;49;00m, url, query_params=query_params)
+[1m[31mlexicon/providers/vultr.py[0m:142: in _request
+    response = requests.request(
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/api.py[0m:61: in request
+    [94mreturn[39;49;00m session.request(method=method, url=url, **kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/sessions.py[0m:530: in request
+    resp = [96mself[39;49;00m.send(prep, **send_kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/sessions.py[0m:643: in send
+    r = adapter.send(request, **kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/adapters.py[0m:439: in send
+    resp = conn.urlopen(
+[1m[31m/nix/store/hhmp3gflmmpsfc6jgdlm947p99nyml8s-python3.8-urllib3-1.25.10/lib/python3.8/site-packages/urllib3/connectionpool.py[0m:670: in urlopen
+    httplib_response = [96mself[39;49;00m._make_request(
+[1m[31m/nix/store/hhmp3gflmmpsfc6jgdlm947p99nyml8s-python3.8-urllib3-1.25.10/lib/python3.8/site-packages/urllib3/connectionpool.py[0m:417: in _make_request
+    httplib_response = conn.getresponse(buffering=[94mTrue[39;49;00m)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <vcr.patch.VCRRequestsHTTPSConnectiontests/fixtures/cassettes/vultr/IntegrationTests/test_provider_when_calling_list_records_with_name_filter_should_return_record.yaml object at 0x7ffff4cd5730>
+_ = False, kwargs = {'buffering': True}
+
+    [94mdef[39;49;00m [92mgetresponse[39;49;00m([96mself[39;49;00m, _=[94mFalse[39;49;00m, **kwargs):
+        [33m"""Retrieve the response"""[39;49;00m
+        [90m# Check to see if the cassette has a response for this request. If so,[39;49;00m
+        [90m# then return it[39;49;00m
+        [94mif[39;49;00m [96mself[39;49;00m.cassette.can_play_response_for([96mself[39;49;00m._vcr_request):
+            log.info([33m"[39;49;00m[33mPlaying response for [39;49;00m[33m{}[39;49;00m[33m from cassette[39;49;00m[33m"[39;49;00m.format([96mself[39;49;00m._vcr_request))
+            response = [96mself[39;49;00m.cassette.play_response([96mself[39;49;00m._vcr_request)
+            [94mreturn[39;49;00m VCRHTTPResponse(response)
+        [94melse[39;49;00m:
+            [94mif[39;49;00m [96mself[39;49;00m.cassette.write_protected [95mand[39;49;00m [96mself[39;49;00m.cassette.filter_request([96mself[39;49;00m._vcr_request):
+>               [94mraise[39;49;00m CannotOverwriteExistingCassetteException(
+                    cassette=[96mself[39;49;00m.cassette, failed_request=[96mself[39;49;00m._vcr_request
+                )
+[1m[31mE               vcr.errors.CannotOverwriteExistingCassetteException: Can't overwrite existing cassette ('tests/fixtures/cassettes/vultr/IntegrationTests/test_provider_when_calling_list_records_with_name_filter_should_return_record.yaml') in your current record mode ('none').[0m
+[1m[31mE               No match for the request (<Request (GET) https://api.vultr.com/v1/dns/list>) was found.[0m
+[1m[31mE               No similar requests, that have not been played, found.[0m
+
+[1m[31m/nix/store/7zq1hx1b1pydlbgxj6kff3s2kgq3rqfl-python3.8-vcrpy-4.1.0/lib/python3.8/site-packages/vcr/stubs/__init__.py[0m:231: CannotOverwriteExistingCassetteException
+[31m[1m_ VultrProviderTests.test_provider_when_calling_list_records_with_no_arguments_should_list_all _[0m
+
+self = <lexicon.tests.providers.test_vultr.VultrProviderTests testMethod=test_provider_when_calling_list_records_with_no_arguments_should_list_all>
+
+    [37m@_vcr_integration_test[39;49;00m
+    [94mdef[39;49;00m [92mtest_provider_when_calling_list_records_with_no_arguments_should_list_all[39;49;00m([96mself[39;49;00m):
+>       provider = [96mself[39;49;00m._construct_authenticated_provider()
+
+[1m[31mlexicon/tests/providers/integration_tests.py[0m:182: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+[1m[31mlexicon/tests/providers/integration_tests.py[0m:444: in _construct_authenticated_provider
+    provider.authenticate()
+[1m[31mlexicon/providers/base.py[0m:74: in authenticate
+    [94mreturn[39;49;00m [96mself[39;49;00m._authenticate()
+[1m[31mlexicon/providers/vultr.py[0m:29: in _authenticate
+    payload = [96mself[39;49;00m._get([33m"[39;49;00m[33m/dns/list[39;49;00m[33m"[39;49;00m)
+[1m[31mlexicon/providers/base.py[0m:159: in _get
+    [94mreturn[39;49;00m [96mself[39;49;00m._request([33m"[39;49;00m[33mGET[39;49;00m[33m"[39;49;00m, url, query_params=query_params)
+[1m[31mlexicon/providers/vultr.py[0m:142: in _request
+    response = requests.request(
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/api.py[0m:61: in request
+    [94mreturn[39;49;00m session.request(method=method, url=url, **kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/sessions.py[0m:530: in request
+    resp = [96mself[39;49;00m.send(prep, **send_kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/sessions.py[0m:643: in send
+    r = adapter.send(request, **kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/adapters.py[0m:439: in send
+    resp = conn.urlopen(
+[1m[31m/nix/store/hhmp3gflmmpsfc6jgdlm947p99nyml8s-python3.8-urllib3-1.25.10/lib/python3.8/site-packages/urllib3/connectionpool.py[0m:670: in urlopen
+    httplib_response = [96mself[39;49;00m._make_request(
+[1m[31m/nix/store/hhmp3gflmmpsfc6jgdlm947p99nyml8s-python3.8-urllib3-1.25.10/lib/python3.8/site-packages/urllib3/connectionpool.py[0m:417: in _make_request
+    httplib_response = conn.getresponse(buffering=[94mTrue[39;49;00m)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <vcr.patch.VCRRequestsHTTPSConnectiontests/fixtures/cassettes/vultr/IntegrationTests/test_provider_when_calling_list_records_with_no_arguments_should_list_all.yaml object at 0x7ffff4d06400>
+_ = False, kwargs = {'buffering': True}
+
+    [94mdef[39;49;00m [92mgetresponse[39;49;00m([96mself[39;49;00m, _=[94mFalse[39;49;00m, **kwargs):
+        [33m"""Retrieve the response"""[39;49;00m
+        [90m# Check to see if the cassette has a response for this request. If so,[39;49;00m
+        [90m# then return it[39;49;00m
+        [94mif[39;49;00m [96mself[39;49;00m.cassette.can_play_response_for([96mself[39;49;00m._vcr_request):
+            log.info([33m"[39;49;00m[33mPlaying response for [39;49;00m[33m{}[39;49;00m[33m from cassette[39;49;00m[33m"[39;49;00m.format([96mself[39;49;00m._vcr_request))
+            response = [96mself[39;49;00m.cassette.play_response([96mself[39;49;00m._vcr_request)
+            [94mreturn[39;49;00m VCRHTTPResponse(response)
+        [94melse[39;49;00m:
+            [94mif[39;49;00m [96mself[39;49;00m.cassette.write_protected [95mand[39;49;00m [96mself[39;49;00m.cassette.filter_request([96mself[39;49;00m._vcr_request):
+>               [94mraise[39;49;00m CannotOverwriteExistingCassetteException(
+                    cassette=[96mself[39;49;00m.cassette, failed_request=[96mself[39;49;00m._vcr_request
+                )
+[1m[31mE               vcr.errors.CannotOverwriteExistingCassetteException: Can't overwrite existing cassette ('tests/fixtures/cassettes/vultr/IntegrationTests/test_provider_when_calling_list_records_with_no_arguments_should_list_all.yaml') in your current record mode ('none').[0m
+[1m[31mE               No match for the request (<Request (GET) https://api.vultr.com/v1/dns/list>) was found.[0m
+[1m[31mE               No similar requests, that have not been played, found.[0m
+
+[1m[31m/nix/store/7zq1hx1b1pydlbgxj6kff3s2kgq3rqfl-python3.8-vcrpy-4.1.0/lib/python3.8/site-packages/vcr/stubs/__init__.py[0m:231: CannotOverwriteExistingCassetteException
+[31m[1m_ VultrProviderTests.test_provider_when_calling_update_record_should_modify_record _[0m
+
+self = <lexicon.tests.providers.test_vultr.VultrProviderTests testMethod=test_provider_when_calling_update_record_should_modify_record>
+
+    [37m@_vcr_integration_test[39;49;00m
+    [94mdef[39;49;00m [92mtest_provider_when_calling_update_record_should_modify_record[39;49;00m([96mself[39;49;00m):
+>       provider = [96mself[39;49;00m._construct_authenticated_provider()
+
+[1m[31mlexicon/tests/providers/integration_tests.py[0m:260: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+[1m[31mlexicon/tests/providers/integration_tests.py[0m:444: in _construct_authenticated_provider
+    provider.authenticate()
+[1m[31mlexicon/providers/base.py[0m:74: in authenticate
+    [94mreturn[39;49;00m [96mself[39;49;00m._authenticate()
+[1m[31mlexicon/providers/vultr.py[0m:29: in _authenticate
+    payload = [96mself[39;49;00m._get([33m"[39;49;00m[33m/dns/list[39;49;00m[33m"[39;49;00m)
+[1m[31mlexicon/providers/base.py[0m:159: in _get
+    [94mreturn[39;49;00m [96mself[39;49;00m._request([33m"[39;49;00m[33mGET[39;49;00m[33m"[39;49;00m, url, query_params=query_params)
+[1m[31mlexicon/providers/vultr.py[0m:142: in _request
+    response = requests.request(
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/api.py[0m:61: in request
+    [94mreturn[39;49;00m session.request(method=method, url=url, **kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/sessions.py[0m:530: in request
+    resp = [96mself[39;49;00m.send(prep, **send_kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/sessions.py[0m:643: in send
+    r = adapter.send(request, **kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/adapters.py[0m:439: in send
+    resp = conn.urlopen(
+[1m[31m/nix/store/hhmp3gflmmpsfc6jgdlm947p99nyml8s-python3.8-urllib3-1.25.10/lib/python3.8/site-packages/urllib3/connectionpool.py[0m:670: in urlopen
+    httplib_response = [96mself[39;49;00m._make_request(
+[1m[31m/nix/store/hhmp3gflmmpsfc6jgdlm947p99nyml8s-python3.8-urllib3-1.25.10/lib/python3.8/site-packages/urllib3/connectionpool.py[0m:417: in _make_request
+    httplib_response = conn.getresponse(buffering=[94mTrue[39;49;00m)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <vcr.patch.VCRRequestsHTTPSConnectiontests/fixtures/cassettes/vultr/IntegrationTests/test_provider_when_calling_update_record_should_modify_record.yaml object at 0x7ffff4e1aac0>
+_ = False, kwargs = {'buffering': True}
+
+    [94mdef[39;49;00m [92mgetresponse[39;49;00m([96mself[39;49;00m, _=[94mFalse[39;49;00m, **kwargs):
+        [33m"""Retrieve the response"""[39;49;00m
+        [90m# Check to see if the cassette has a response for this request. If so,[39;49;00m
+        [90m# then return it[39;49;00m
+        [94mif[39;49;00m [96mself[39;49;00m.cassette.can_play_response_for([96mself[39;49;00m._vcr_request):
+            log.info([33m"[39;49;00m[33mPlaying response for [39;49;00m[33m{}[39;49;00m[33m from cassette[39;49;00m[33m"[39;49;00m.format([96mself[39;49;00m._vcr_request))
+            response = [96mself[39;49;00m.cassette.play_response([96mself[39;49;00m._vcr_request)
+            [94mreturn[39;49;00m VCRHTTPResponse(response)
+        [94melse[39;49;00m:
+            [94mif[39;49;00m [96mself[39;49;00m.cassette.write_protected [95mand[39;49;00m [96mself[39;49;00m.cassette.filter_request([96mself[39;49;00m._vcr_request):
+>               [94mraise[39;49;00m CannotOverwriteExistingCassetteException(
+                    cassette=[96mself[39;49;00m.cassette, failed_request=[96mself[39;49;00m._vcr_request
+                )
+[1m[31mE               vcr.errors.CannotOverwriteExistingCassetteException: Can't overwrite existing cassette ('tests/fixtures/cassettes/vultr/IntegrationTests/test_provider_when_calling_update_record_should_modify_record.yaml') in your current record mode ('none').[0m
+[1m[31mE               No match for the request (<Request (GET) https://api.vultr.com/v1/dns/list>) was found.[0m
+[1m[31mE               No similar requests, that have not been played, found.[0m
+
+[1m[31m/nix/store/7zq1hx1b1pydlbgxj6kff3s2kgq3rqfl-python3.8-vcrpy-4.1.0/lib/python3.8/site-packages/vcr/stubs/__init__.py[0m:231: CannotOverwriteExistingCassetteException
+[31m[1m_ VultrProviderTests.test_provider_when_calling_update_record_with_fqdn_name_should_modify_record _[0m
+
+self = <lexicon.tests.providers.test_vultr.VultrProviderTests testMethod=test_provider_when_calling_update_record_with_fqdn_name_should_modify_record>
+
+    [37m@_vcr_integration_test[39;49;00m
+    [94mdef[39;49;00m [92mtest_provider_when_calling_update_record_with_fqdn_name_should_modify_record[39;49;00m(
+        [96mself[39;49;00m,
+    ):
+>       provider = [96mself[39;49;00m._construct_authenticated_provider()
+
+[1m[31mlexicon/tests/providers/integration_tests.py[0m:295: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+[1m[31mlexicon/tests/providers/integration_tests.py[0m:444: in _construct_authenticated_provider
+    provider.authenticate()
+[1m[31mlexicon/providers/base.py[0m:74: in authenticate
+    [94mreturn[39;49;00m [96mself[39;49;00m._authenticate()
+[1m[31mlexicon/providers/vultr.py[0m:29: in _authenticate
+    payload = [96mself[39;49;00m._get([33m"[39;49;00m[33m/dns/list[39;49;00m[33m"[39;49;00m)
+[1m[31mlexicon/providers/base.py[0m:159: in _get
+    [94mreturn[39;49;00m [96mself[39;49;00m._request([33m"[39;49;00m[33mGET[39;49;00m[33m"[39;49;00m, url, query_params=query_params)
+[1m[31mlexicon/providers/vultr.py[0m:142: in _request
+    response = requests.request(
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/api.py[0m:61: in request
+    [94mreturn[39;49;00m session.request(method=method, url=url, **kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/sessions.py[0m:530: in request
+    resp = [96mself[39;49;00m.send(prep, **send_kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/sessions.py[0m:643: in send
+    r = adapter.send(request, **kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/adapters.py[0m:439: in send
+    resp = conn.urlopen(
+[1m[31m/nix/store/hhmp3gflmmpsfc6jgdlm947p99nyml8s-python3.8-urllib3-1.25.10/lib/python3.8/site-packages/urllib3/connectionpool.py[0m:670: in urlopen
+    httplib_response = [96mself[39;49;00m._make_request(
+[1m[31m/nix/store/hhmp3gflmmpsfc6jgdlm947p99nyml8s-python3.8-urllib3-1.25.10/lib/python3.8/site-packages/urllib3/connectionpool.py[0m:417: in _make_request
+    httplib_response = conn.getresponse(buffering=[94mTrue[39;49;00m)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <vcr.patch.VCRRequestsHTTPSConnectiontests/fixtures/cassettes/vultr/IntegrationTests/test_provider_when_calling_update_record_with_fqdn_name_should_modify_record.yaml object at 0x7ffff4eca4f0>
+_ = False, kwargs = {'buffering': True}
+
+    [94mdef[39;49;00m [92mgetresponse[39;49;00m([96mself[39;49;00m, _=[94mFalse[39;49;00m, **kwargs):
+        [33m"""Retrieve the response"""[39;49;00m
+        [90m# Check to see if the cassette has a response for this request. If so,[39;49;00m
+        [90m# then return it[39;49;00m
+        [94mif[39;49;00m [96mself[39;49;00m.cassette.can_play_response_for([96mself[39;49;00m._vcr_request):
+            log.info([33m"[39;49;00m[33mPlaying response for [39;49;00m[33m{}[39;49;00m[33m from cassette[39;49;00m[33m"[39;49;00m.format([96mself[39;49;00m._vcr_request))
+            response = [96mself[39;49;00m.cassette.play_response([96mself[39;49;00m._vcr_request)
+            [94mreturn[39;49;00m VCRHTTPResponse(response)
+        [94melse[39;49;00m:
+            [94mif[39;49;00m [96mself[39;49;00m.cassette.write_protected [95mand[39;49;00m [96mself[39;49;00m.cassette.filter_request([96mself[39;49;00m._vcr_request):
+>               [94mraise[39;49;00m CannotOverwriteExistingCassetteException(
+                    cassette=[96mself[39;49;00m.cassette, failed_request=[96mself[39;49;00m._vcr_request
+                )
+[1m[31mE               vcr.errors.CannotOverwriteExistingCassetteException: Can't overwrite existing cassette ('tests/fixtures/cassettes/vultr/IntegrationTests/test_provider_when_calling_update_record_with_fqdn_name_should_modify_record.yaml') in your current record mode ('none').[0m
+[1m[31mE               No match for the request (<Request (GET) https://api.vultr.com/v1/dns/list>) was found.[0m
+[1m[31mE               No similar requests, that have not been played, found.[0m
+
+[1m[31m/nix/store/7zq1hx1b1pydlbgxj6kff3s2kgq3rqfl-python3.8-vcrpy-4.1.0/lib/python3.8/site-packages/vcr/stubs/__init__.py[0m:231: CannotOverwriteExistingCassetteException
+[31m[1m_ VultrProviderTests.test_provider_when_calling_update_record_with_full_name_should_modify_record _[0m
+
+self = <lexicon.tests.providers.test_vultr.VultrProviderTests testMethod=test_provider_when_calling_update_record_with_full_name_should_modify_record>
+
+    [37m@_vcr_integration_test[39;49;00m
+    [94mdef[39;49;00m [92mtest_provider_when_calling_update_record_with_full_name_should_modify_record[39;49;00m(
+        [96mself[39;49;00m,
+    ):
+>       provider = [96mself[39;49;00m._construct_authenticated_provider()
+
+[1m[31mlexicon/tests/providers/integration_tests.py[0m:279: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+[1m[31mlexicon/tests/providers/integration_tests.py[0m:444: in _construct_authenticated_provider
+    provider.authenticate()
+[1m[31mlexicon/providers/base.py[0m:74: in authenticate
+    [94mreturn[39;49;00m [96mself[39;49;00m._authenticate()
+[1m[31mlexicon/providers/vultr.py[0m:29: in _authenticate
+    payload = [96mself[39;49;00m._get([33m"[39;49;00m[33m/dns/list[39;49;00m[33m"[39;49;00m)
+[1m[31mlexicon/providers/base.py[0m:159: in _get
+    [94mreturn[39;49;00m [96mself[39;49;00m._request([33m"[39;49;00m[33mGET[39;49;00m[33m"[39;49;00m, url, query_params=query_params)
+[1m[31mlexicon/providers/vultr.py[0m:142: in _request
+    response = requests.request(
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/api.py[0m:61: in request
+    [94mreturn[39;49;00m session.request(method=method, url=url, **kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/sessions.py[0m:530: in request
+    resp = [96mself[39;49;00m.send(prep, **send_kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/sessions.py[0m:643: in send
+    r = adapter.send(request, **kwargs)
+[1m[31m/nix/store/gsya2zk5is2lzx580pdg4azp1k39lkdy-python3.8-requests-2.24.0/lib/python3.8/site-packages/requests/adapters.py[0m:439: in send
+    resp = conn.urlopen(
+[1m[31m/nix/store/hhmp3gflmmpsfc6jgdlm947p99nyml8s-python3.8-urllib3-1.25.10/lib/python3.8/site-packages/urllib3/connectionpool.py[0m:670: in urlopen
+    httplib_response = [96mself[39;49;00m._make_request(
+[1m[31m/nix/store/hhmp3gflmmpsfc6jgdlm947p99nyml8s-python3.8-urllib3-1.25.10/lib/python3.8/site-packages/urllib3/connectionpool.py[0m:417: in _make_request
+    httplib_response = conn.getresponse(buffering=[94mTrue[39;49;00m)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <vcr.patch.VCRRequestsHTTPSConnectiontests/fixtures/cassettes/vultr/IntegrationTests/test_provider_when_calling_update_record_with_full_name_should_modify_record.yaml object at 0x7ffff4fdb940>
+_ = False, kwargs = {'buffering': True}
+
+    [94mdef[39;49;00m [92mgetresponse[39;49;00m([96mself[39;49;00m, _=[94mFalse[39;49;00m, **kwargs):
+        [33m"""Retrieve the response"""[39;49;00m
+        [90m# Check to see if the cassette has a response for this request. If so,[39;49;00m
+        [90m# then return it[39;49;00m
+        [94mif[39;49;00m [96mself[39;49;00m.cassette.can_play_response_for([96mself[39;49;00m._vcr_request):
+            log.info([33m"[39;49;00m[33mPlaying response for [39;49;00m[33m{}[39;49;00m[33m from cassette[39;49;00m[33m"[39;49;00m.format([96mself[39;49;00m._vcr_request))
+            response = [96mself[39;49;00m.cassette.play_response([96mself[39;49;00m._vcr_request)
+            [94mreturn[39;49;00m VCRHTTPResponse(response)
+        [94melse[39;49;00m:
+            [94mif[39;49;00m [96mself[39;49;00m.cassette.write_protected [95mand[39;49;00m [96mself[39;49;00m.cassette.filter_request([96mself[39;49;00m._vcr_request):
+>               [94mraise[39;49;00m CannotOverwriteExistingCassetteException(
+                    cassette=[96mself[39;49;00m.cassette, failed_request=[96mself[39;49;00m._vcr_request
+                )
+[1m[31mE               vcr.errors.CannotOverwriteExistingCassetteException: Can't overwrite existing cassette ('tests/fixtures/cassettes/vultr/IntegrationTests/test_provider_when_calling_update_record_with_full_name_should_modify_record.yaml') in your current record mode ('none').[0m
+[1m[31mE               No match for the request (<Request (GET) https://api.vultr.com/v1/dns/list>) was found.[0m
+[1m[31mE               No similar requests, that have not been played, found.[0m
+
+[1m[31m/nix/store/7zq1hx1b1pydlbgxj6kff3s2kgq3rqfl-python3.8-vcrpy-4.1.0/lib/python3.8/site-packages/vcr/stubs/__init__.py[0m:231: CannotOverwriteExistingCassetteException
+[33m=============================== warnings summary ===============================[0m
+/nix/store/nlvjjvb9471dbpdj8fhdih0ak90cq9d9-python3.8-aiohttp-3.6.2/lib/python3.8/site-packages/aiohttp/helpers.py:107
+  /nix/store/nlvjjvb9471dbpdj8fhdih0ak90cq9d9-python3.8-aiohttp-3.6.2/lib/python3.8/site-packages/aiohttp/helpers.py:107: DeprecationWarning: "@coroutine" decorator is deprecated since Python 3.8, use "async def" instead
+    def noop(*args, **kwargs):  # type: ignore
+
+-- Docs: https://docs.pytest.org/en/latest/warnings.html
+=========================== short test summary info ============================
+FAILED lexicon/tests/providers/test_vultr.py::VultrProviderTests::test_provider_authenticate
+FAILED lexicon/tests/providers/test_vultr.py::VultrProviderTests::test_provider_when_calling_create_record_for_A_with_valid_name_and_content
+FAILED lexicon/tests/providers/test_vultr.py::VultrProviderTests::test_provider_when_calling_create_record_for_CNAME_with_valid_name_and_content
+FAILED lexicon/tests/providers/test_vultr.py::VultrProviderTests::test_provider_when_calling_create_record_for_TXT_with_fqdn_name_and_content
+FAILED lexicon/tests/providers/test_vultr.py::VultrProviderTests::test_provider_when_calling_create_record_for_TXT_with_full_name_and_content
+FAILED lexicon/tests/providers/test_vultr.py::VultrProviderTests::test_provider_when_calling_create_record_for_TXT_with_valid_name_and_content
+FAILED lexicon/tests/providers/test_vultr.py::VultrProviderTests::test_provider_when_calling_delete_record_by_filter_should_remove_record
+FAILED lexicon/tests/providers/test_vultr.py::VultrProviderTests::test_provider_when_calling_delete_record_by_filter_with_fqdn_name_should_remove_record
+FAILED lexicon/tests/providers/test_vultr.py::VultrProviderTests::test_provider_when_calling_delete_record_by_filter_with_full_name_should_remove_record
+FAILED lexicon/tests/providers/test_vultr.py::VultrProviderTests::test_provider_when_calling_delete_record_by_identifier_should_remove_record
+FAILED lexicon/tests/providers/test_vultr.py::VultrProviderTests::test_provider_when_calling_list_records_after_setting_ttl
+FAILED lexicon/tests/providers/test_vultr.py::VultrProviderTests::test_provider_when_calling_list_records_with_fqdn_name_filter_should_return_record
+FAILED lexicon/tests/providers/test_vultr.py::VultrProviderTests::test_provider_when_calling_list_records_with_full_name_filter_should_return_record
+FAILED lexicon/tests/providers/test_vultr.py::VultrProviderTests::test_provider_when_calling_list_records_with_name_filter_should_return_record
+FAILED lexicon/tests/providers/test_vultr.py::VultrProviderTests::test_provider_when_calling_list_records_with_no_arguments_should_list_all
+FAILED lexicon/tests/providers/test_vultr.py::VultrProviderTests::test_provider_when_calling_update_record_should_modify_record
+FAILED lexicon/tests/providers/test_vultr.py::VultrProviderTests::test_provider_when_calling_update_record_with_fqdn_name_should_modify_record
+FAILED lexicon/tests/providers/test_vultr.py::VultrProviderTests::test_provider_when_calling_update_record_with_full_name_should_modify_record
+[31m============== [31m[1m18 failed[0m, [32m2 passed[0m, [33m3 skipped[0m, [33m1 warning[0m[31m in 2.75s[0m[31m ==============[0m
